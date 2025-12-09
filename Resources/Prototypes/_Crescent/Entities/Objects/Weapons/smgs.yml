@@ -499,7 +499,7 @@
 
 #PTA
 - type: entity
-  name: PTA P-M50 Vektor 6mm #The only gun that actually has obvious problems
+  name: PTA P-M50 Vektor 6mm
   parent: [BaseWeaponSubMachineGun, StreeCredRedeemable]
   id: WeaponSubMachineGunPTAVektor
   description: A cheap, open-bolt copy of the Vector. Unlike the real vector this one doesnt have the signature Super V recoil mitigation system. Chambered in small 6mm rounds.
