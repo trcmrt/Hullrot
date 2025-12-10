@@ -62,7 +62,7 @@
     amount: 0
     maxAmount: 5
 
-  - id: WeaponSubMachineGunAtreide
+  - id: WeaponSubMachineGunAtreides
     amount: 0
     maxAmount: 5
   - id: WeaponSubMachineGunC20r

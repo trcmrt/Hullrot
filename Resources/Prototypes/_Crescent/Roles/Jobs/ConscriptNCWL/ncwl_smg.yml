@@ -56,7 +56,7 @@
     ears: ClothingHeadsetNCWL
     eyes: ClothingEyesGlassesNCWL
     id: NCWLHomeguardSoldatPDA
-    suitstorage: WeaponSubMachineGunNCWLPartisann
+    suitstorage: WeaponSubMachineGunNCWLPartisanHullrot
     gloves: ClothingHandsGlovesCombat
   inhand:
     - BookUnionfallNCWLGuide

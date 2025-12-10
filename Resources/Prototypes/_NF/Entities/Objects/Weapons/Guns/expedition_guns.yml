@@ -52,7 +52,7 @@
   id: WeaponSubMachineGunWt550Expedition
 
 - type: entity
-  parent: [ WeaponSubMachineGunAtreide, UnregisteredFirearmBase ]
+  parent: [ WeaponSubMachineGunAtreides, UnregisteredFirearmBase ]
   categories: [ HideSpawnMenu ]
   id: WeaponSubMachineGunAtreidesExpedition
 

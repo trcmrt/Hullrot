@@ -55,7 +55,7 @@
 
 - type: latheRecipe
   id: WeaponSubMachineGunAtreidesCyberdawn
-  result: WeaponSubMachineGunAtreide
+  result: WeaponSubMachineGunAtreidesHullrot
   completetime: 1.5
   materials:
     Steel: 1500

@@ -403,7 +403,7 @@
 
 - type: latheRecipe
   id: WeaponSubMachineGunWt550
-  result: WeaponSubMachineGunWt550
+  result: WeaponSubMachineGunWt550Hullrot
   completetime: 2
   materials:
     Steel: 1500

@@ -22,7 +22,7 @@
     WeaponRifleHoundMarksman: 60
     WeaponLightMachineGunNCSPRPD: 60
     WeaponLightMachineGunL6: 60
-    WeaponSubMachineGunAtreide: 60
+    WeaponSubMachineGunAtreidesHullrot: 60
     WeaponSubMachineGunCheshyre: 60
     WeaponSubMachineGunMP5: 60
     WeaponSubMachineGunSabre: 60
@@ -221,11 +221,11 @@
     WeaponSubMachineGunPTAAsVal: 60
     WeaponRifleHoundMarksman: 60
     WeaponLightMachineGunL6: 60
-    WeaponSubMachineGunC20r: 60
+    WeaponSubMachineGunC20rHullrot: 60
     WeaponSubMachineGunCheshyre: 60
     WeaponSubMachineGunSabre: 60
     WeaponSubMachineGunMP49: 60
-    WeaponSubMachineGunDrozd: 60
+    WeaponSubMachineGunDroz: 60
     WeaponSubMachineGunPTAVektor: 60
     WeaponShotgunSHIDoubleBarreled4g: 60
     WeaponShotgunSpas: 60
@@ -402,7 +402,7 @@
     WeaponSubMachineGunPTAAsVal: 60
     WeaponRifleHoundMarksman: 60
     WeaponLightMachineGunL6: 60
-    WeaponSubMachineGunWt550: 60
+    WeaponSubMachineGunWt550Hullrot: 60
     WeaponSubMachineGunCheshyre: 60
     WeaponSubMachineGunMP5: 60
     WeaponSubMachineGunSabre: 60
@@ -586,7 +586,7 @@
     WeaponSubMachineGunPTAAsVal: 60
     WeaponRifleHoundMarksman: 60
     WeaponLightMachineGunL6: 60
-    WeaponSubMachineGunWt550: 60
+    WeaponSubMachineGunWt550Hullrot: 60
     WeaponSubMachineGunCheshyre: 60
     WeaponSubMachineGunMP5: 60
     WeaponSubMachineGunSabre: 60
@@ -688,7 +688,7 @@
     WeaponSubMachineGunPTAAsVal: 60
     WeaponRifleHoundMarksman: 60
     WeaponLightMachineGunL6: 60
-    WeaponSubMachineGunWt550: 60
+    WeaponSubMachineGunWt550Hullrot: 60
     WeaponSubMachineGunCheshyre: 60
     WeaponSubMachineGunMP5: 60
     WeaponSubMachineGunSabre: 60
@@ -792,7 +792,7 @@
     WeaponRifleKrinkov: 60
     WeaponRifleHoundMarksman: 60
     WeaponLightMachineGunL6: 60
-    WeaponSubMachineGunWt550: 60
+    WeaponSubMachineGunWt550Hullrot: 60
     WeaponSubMachineGunCheshyre: 60
     WeaponSubMachineGunMP5: 60
     WeaponSubMachineGunSabre: 60
@@ -908,7 +908,7 @@
   startingInventory:
     WeaponSniperNCWLNovomosin: 100
     BoxSpeedLoaderRifle: 100
-    WeaponSubMachineGunNCWLPartisann: 4
+    WeaponSubMachineGunNCWLPartisanHullrot: 4
     MagazinePistolSubMachineGun: 12
     WeaponAntimaterielNCWLHayha: 1
     BoxRoundsAntiMateriel: 1
@@ -944,7 +944,7 @@
   startingInventory:
     WeaponSniperDSMLegax: 100
     MagazineBoxLightRifleSurplus: 100
-    WeaponSubMachineGunDSMArbiter: 4
+    WeaponSubMachineGunDSMArbiterHullrot: 4
     MagazinePistolSubMachineGun: 12
     WeaponAntimaterielDSMLeveller: 1
     BoxRoundsAntiMateriel: 1
