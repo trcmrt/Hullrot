@@ -234,15 +234,6 @@
   - type: Appearance
 
 - type: entity
-  name: antique IRM DA-20R 11mm
-  parent: WeaponSubMachineGunC20r
-  id: WeaponSubMachineGunC20rHoS
-  description: This heavily worn submachine gun is engraved with the words, "Remember Nova Balreska".
-  components:
-    - type: StealTarget
-      stealGroup: HoSAntiqueWeapon
-
-- type: entity
   name: IRM Arbiter 9x19mm
   parent: [BaseWeaponSubMachineGun, StreeCredRedeemable ]
   id: WeaponSubMachineGunDSMArbiterHullrot
