@@ -1,7 +1,7 @@
 using Content.Shared.Crescent.Radar;
 using Content.Shared.Shuttles.BUIStates;
-using Robust.Shared.Map;
 using Robust.Shared.Serialization;
+using System.Numerics;
 
 namespace Content.Shared._Crescent.DroneControl;
 
@@ -11,6 +11,24 @@ public enum DroneConsoleUiKey : byte
     Key
 }
 
+/// <summary>
+///     Added to the Console entity.
+///     Requires DeviceNetworkComponent and DeviceListComponent to function.
+/// </summary>
+[RegisterComponent]
+public sealed partial class DroneControlConsoleComponent : Component
+{
+}
+
+/// <summary>
+///     Added to Drones to allow them to receive orders.
+///     Requires DeviceNetworkComponent and HTNComponent.
+/// </summary>
+[RegisterComponent]
+public sealed partial class DroneControlComponent : Component
+{
+}
+
 [Serializable, NetSerializable]
 public sealed class DroneConsoleBoundUserInterfaceState : BoundUserInterfaceState
 {
@@ -18,12 +36,12 @@ public sealed class DroneConsoleBoundUserInterfaceState : BoundUserInterfaceStat
     public IFFInterfaceState IFFState;
 
     // Key: NetEntity of the drone, Value: Name
-    public List<(NetEntity Server, NetEntity Grid)> LinkedDrones;
+    public List<NetEntity> LinkedDrones;
 
     public DroneConsoleBoundUserInterfaceState(
         NavInterfaceState navState,
         IFFInterfaceState iffState,
-        List<(NetEntity, NetEntity)> linkedDrones)
+        List<NetEntity> linkedDrones)
     {
         NavState = navState;
         IFFState = iffState;
@@ -38,9 +56,9 @@ public sealed class DroneConsoleBoundUserInterfaceState : BoundUserInterfaceStat
 public sealed class DroneConsoleMoveMessage : BoundUserInterfaceMessage
 {
     public HashSet<NetEntity> SelectedDrones;
-    public NetCoordinates TargetCoordinates;
+    public Vector2 TargetCoordinates;
 
-    public DroneConsoleMoveMessage(HashSet<NetEntity> selectedDrones, NetCoordinates targetCoordinates)
+    public DroneConsoleMoveMessage(HashSet<NetEntity> selectedDrones, Vector2 targetCoordinates)
     {
         SelectedDrones = selectedDrones;
         TargetCoordinates = targetCoordinates;
@@ -54,12 +72,12 @@ public sealed class DroneConsoleMoveMessage : BoundUserInterfaceMessage
 public sealed class DroneConsoleTargetMessage : BoundUserInterfaceMessage
 {
     public HashSet<NetEntity> SelectedDrones;
-    public NetCoordinates TargetCoordinates;
+    public NetEntity TargetGrid;
 
-    public DroneConsoleTargetMessage(HashSet<NetEntity> selectedDrones, NetCoordinates targetCoordinates)
+    public DroneConsoleTargetMessage(HashSet<NetEntity> selectedDrones, NetEntity targetGrid)
     {
         SelectedDrones = selectedDrones;
-        TargetCoordinates = targetCoordinates;
+        TargetGrid = targetGrid;
     }
 }
 
@@ -70,11 +88,6 @@ public static class DroneConsoleConstants
 {
     public const string CommandMove = "drone_cmd_move";
     public const string CommandTarget = "drone_cmd_target";
-    public const string TargetCoords = "target";
-}
-
-public enum DroneOrderType
-{
-    Move,
-    Target
+    public const string KeyCoords = "coords";
+    public const string KeyEntity = "entity";
 }

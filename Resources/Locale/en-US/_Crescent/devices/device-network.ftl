@@ -5,3 +5,6 @@ device-frequency-prototype-name-surveillance-camera-interdyne = Interdyne Survey
 
 ## drone control
 device-frequency-prototype-name-drone-control = Drone Control
+
+signal-port-name-drone-control = Drone Control
+signal-port-description-drone-control = Controls linked drones.

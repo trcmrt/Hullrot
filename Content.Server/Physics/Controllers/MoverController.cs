@@ -17,13 +17,13 @@ namespace Content.Server.Physics.Controllers;
 
 public sealed class MoverController : SharedMoverController
 {
+
     [Dependency] private readonly ThrusterSystem _thruster = default!;
     [Dependency] private readonly SharedTransformSystem _xformSystem = default!;
 
     private Dictionary<EntityUid, (ShuttleComponent, List<(EntityUid, PilotComponent, InputMoverComponent, TransformComponent)>)> _shuttlePilots = new();
 
     public override void Initialize()
-    {
         base.Initialize();
         SubscribeLocalEvent<RelayInputMoverComponent, PlayerAttachedEvent>(OnRelayPlayerAttached);
         SubscribeLocalEvent<RelayInputMoverComponent, PlayerDetachedEvent>(OnRelayPlayerDetached);
@@ -32,12 +32,6 @@ public sealed class MoverController : SharedMoverController
         SubscribeLocalEvent<PilotComponent, GetShuttleInputsEvent>(OnPilotGetInputs); // Mono
 
         SubscribeLocalEvent<PilotedShuttleComponent, StartCollideEvent>(PilotedShuttleRelayEvent<StartCollideEvent>); // Mono
-    }
-
-    private void OnRelayPlayerAttached(Entity<RelayInputMoverComponent> entity, ref PlayerAttachedEvent args)
-    {
-        if (MoverQuery.TryGetComponent(entity.Comp.RelayEntity, out var inputMover))
-            SetMoveInput((entity.Comp.RelayEntity, inputMover), MoveButtons.None);
     }
 
     private void OnRelayPlayerDetached(Entity<RelayInputMoverComponent> entity, ref PlayerDetachedEvent args)
@@ -130,6 +124,8 @@ public sealed class MoverController : SharedMoverController
 
         HandleShuttleMovement(frameTime);
     }
+
+<<<<<<< HEAD
 
     // Mono: make ShuttleInput
     public ShuttleInput GetPilotVelocityInput(PilotComponent component)
@@ -594,5 +590,3 @@ public sealed class MoverController : SharedMoverController
         && (ftl.State & (FTLState.Starting | FTLState.Travelling | FTLState.Arriving)) != 0x0
             || HasComp<PreventPilotComponent>(shuttleUid);
     }
-
-}

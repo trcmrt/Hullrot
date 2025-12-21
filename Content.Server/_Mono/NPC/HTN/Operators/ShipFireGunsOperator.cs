@@ -1,8 +1,6 @@
 using Content.Server.NPC;
 using Content.Server.NPC.HTN;
 using Content.Server.NPC.HTN.PrimitiveTasks;
-using Content.Server.Power.Components;
-using Content.Server.Power.EntitySystems;
 using Content.Shared.Construction.Components;
 using Robust.Shared.Map;
 using System.Threading;
@@ -16,7 +14,6 @@ namespace Content.Server._Mono.NPC.HTN.Operators;
 public sealed partial class ShipFireGunsOperator : HTNOperator, IHtnConditionalShutdown
 {
     [Dependency] private readonly IEntityManager _entManager = default!;
-    private PowerReceiverSystem _power = default!;
     private ShipTargetingSystem _targeting = default!;
 
     /// <summary>
@@ -52,12 +49,6 @@ public sealed partial class ShipFireGunsOperator : HTNOperator, IHtnConditionalS
     public bool RequireAnchored = true;
 
     /// <summary>
-    /// Whether to require us to be powered, if we have ApcPowerReceiver.
-    /// </summary>
-    [DataField]
-    public bool RequirePowered = true;
-
-    /// <summary>
     /// Stop targeting if beyond this range.
     /// </summary>
     [DataField]
@@ -68,7 +59,6 @@ public sealed partial class ShipFireGunsOperator : HTNOperator, IHtnConditionalS
     public override void Initialize(IEntitySystemManager sysManager)
     {
         base.Initialize(sysManager);
-        _power = sysManager.GetEntitySystem<PowerReceiverSystem>();
         _targeting = sysManager.GetEntitySystem<ShipTargetingSystem>();
     }
 
@@ -110,15 +100,13 @@ public sealed partial class ShipFireGunsOperator : HTNOperator, IHtnConditionalS
         if (!blackboard.TryGetValue<EntityCoordinates>(TargetKey, out var target, _entManager)
             || !_entManager.TryGetComponent<TransformComponent>(owner, out var xform)
             // also fail if we're anchorable but are unanchored and require to be anchored
-            || RequireAnchored
-                && _entManager.TryGetComponent<AnchorableComponent>(owner, out var anchorable) && !xform.Anchored
-            || RequirePowered
-                && _entManager.TryGetComponent<ApcPowerReceiverComponent>(owner, out var receiver) && !_power.IsPowered(owner, receiver)
+            || _entManager.TryGetComponent<AnchorableComponent>(owner, out var anchorable)
+                && !xform.Anchored && RequireAnchored
         )
             return HTNOperatorStatus.Failed;
 
         // ensure we're still targeting if we e.g. move grids
-        var comp = _targeting.Target(owner, target);
+        var comp = _targeting.Target(owner, target, false);
         if (comp == null)
             return HTNOperatorStatus.Finished;
 
@@ -146,12 +134,5 @@ public sealed partial class ShipFireGunsOperator : HTNOperator, IHtnConditionalS
             blackboard.Remove<EntityCoordinates>(TargetKey);
 
         _targeting.Stop(blackboard.GetValue<EntityUid>(NPCBlackboard.Owner));
-    }
-
-    public override void PlanShutdown(NPCBlackboard blackboard)
-    {
-        base.PlanShutdown(blackboard);
-
-        ConditionalShutdown(blackboard);
     }
 }
