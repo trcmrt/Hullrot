@@ -16,10 +16,10 @@
         Radiation: 90
   - type: PointLight
     radius: 3.5
-    color: "#be7de3" #you have no idea how hard it was to see the previous IFF color
+    color: purple
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 7 #roughly 560m range
+    lifetime: 1
   - type: Fixtures
     fixtures:
       projectile:
@@ -54,7 +54,7 @@
   components:
   - type: ProjectileIFF
     visualType: Circle
-    color: "#be7de3"
+    color: Purple
   - type: ShipWeaponProjectile
   - type: Projectile
     ignoreWeaponGrid: true
@@ -74,7 +74,7 @@
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 14 #roughly 1,050m range
+    lifetime: 1.5
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
@@ -88,7 +88,7 @@
   components:
   - type: ProjectileIFF
     visualType: Circle
-    color: "#be7de3"
+    color: Purple
   - type: ShipWeaponProjectile
   - type: Projectile
     ignoreWeaponGrid: true
@@ -108,7 +108,7 @@
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 21 #roughly 1470m range
+    lifetime: 1.5
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
