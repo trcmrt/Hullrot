@@ -41,3 +41,12 @@
     innerClothingSkirt: ClothingUniformJumpskirtOperative
     satchel: ClothingBackpackDuffelSyndicateOperative
     duffelbag: ClothingBackpackDuffelSyndicateOperative
+
+#Nuclear Operative Commander Gear
+- type: startingGear
+  id: SyndicateCommanderGearFull
+  parent: SyndicateOperativeGearFull
+  equipment:
+    neck: SyndicateWhistle
+  inhand:
+  - NukeOpsDeclarationOfWar
