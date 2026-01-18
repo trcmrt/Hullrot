@@ -343,7 +343,7 @@ entities:
     - type: VesselIcon
       iffIcon:
         sprite: _Crescent/ShipIcons/ifficons.rsi
-        state: industrial
+        state: civilian
     - type: BecomesStation
       id: Mercury
     - type: SelfDeleteGrid
@@ -756,7 +756,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -0.5,-4.5
       parent: 1
-- proto: ComputerTabletopShuttle
+- proto: C_ComputerTabletopShuttle
   entities:
   - uid: 73
     components:
