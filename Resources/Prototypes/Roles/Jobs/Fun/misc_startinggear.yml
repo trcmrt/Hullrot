@@ -256,8 +256,8 @@
     ears: ClothingHeadsetGrey
     gloves: ClothingHandsGlovesFingerless
     innerClothingSkirt: ClothingUniformJumpskirtColorWhite
-    inhand:
-     - WeaponMeleeToolboxRobust
+  inhand:
+    - WeaponMeleeToolboxRobust
 
 #Brigmedic
 
