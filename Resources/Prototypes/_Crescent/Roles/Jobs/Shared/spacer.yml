@@ -38,5 +38,7 @@
     ears: ClothingHeadsetGrey
     id: SpacerPDA
     jumpsuit: ClothingUniformSpacer
-    back: ClothingBackpack
+    back: ClothingBackpackFilled
     shoes: ClothingShoesColorBlack
+    satchel: ClothingBackpackSatchelFilled
+    duffelbag: ClothingBackpackDuffelFilled
