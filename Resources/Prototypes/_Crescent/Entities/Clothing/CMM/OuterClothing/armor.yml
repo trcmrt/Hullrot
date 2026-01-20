@@ -151,3 +151,37 @@
     clothingPrototype: ClothingHeadHelmetHardsuitCMMPatrol
   - type: StaticPrice
     price: 1500
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, StreeCredRedeemableLow]
+  id: ClothingOuterHardsuitCMMNew
+  name: new suit
+  description: new suit desc.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/CMM/OuterClothing/new.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/CMM/OuterClothing/new.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: DegradeableArmor
+    armorMaxHealth: 1000
+    armorType: Metallic
+    armorRepair: NTPolymer
+    initialModifiers:
+      flatReductions:
+        Blunt: 35
+        Slash: 25
+        Piercing: 55
+        Heat: 20
+        Caustic: 15
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitCMMNew
+  - type: StaticPrice
+    price: 1500
