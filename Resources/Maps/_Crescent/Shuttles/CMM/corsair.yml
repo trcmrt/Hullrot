@@ -1638,8 +1638,8 @@ entities:
       - Fire 'Pithalis'
       - Fire 'Azimuths'
       - Toggle 'Azimuths'
-      - Toggle 'Pithalis' Shutters
-      - Toggle 'Azimuth' Shutters
+      - Toggle 'Pithalis' Blastdoors
+      - Toggle 'Azimuth' Blastdoors
     - type: DeviceLinkSource
       linkedPorts:
         invalid:
