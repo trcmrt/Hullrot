@@ -2,12 +2,25 @@
 #--- Funny clutter ---#
 # (riot shields and nightsticks)
 # (narcan autoinjector and gun)
-# (maybe nimrod idk)
 
 #--- MAYBE IF NOT MAPPED ---#
 # (shipworks & material processing)  
 # (explosives, propelland and casings production)
 # (ammo assembly)
+
+#CMM NIMROD
+
+#- type: technology
+#  id: MinutemenBoltRifle
+#  name: research-technology-minutemen-bolt-rifle
+#  icon:
+#    sprite: _Crescent/Objects/Weapons/Guns/nimrod.rsi
+#    state: icon
+#  discipline: Minutemen
+#  tier: 1
+#  cost: 6000
+#  recipeUnlocks:
+#  - WeaponRifleCMMNimrod
 
 - type: technology
   id: MinutemenHybridCorvette
@@ -38,7 +51,7 @@
 
 #tier 2
 
-# (Krammer and some other gun in the future maybe)
+# maybe krammer in the future
 
 - type: technology
   id: MinutemenHardsuit

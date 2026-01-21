@@ -85,6 +85,13 @@
     Durathread: 500
 
 #WEAPONS
-
+- type: latheRecipe
+  id: WeaponRifleCMMNimrod
+  result: WeaponRifleCMMNimrod
+  completetime: 1
+  materials:
+    Steel: 1000
+    Plasteel: 250
+    BallisticCycler: 500
 #MISC
 
