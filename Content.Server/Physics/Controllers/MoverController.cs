@@ -23,7 +23,7 @@ public sealed class MoverController : SharedMoverController
 
     private Dictionary<EntityUid, (ShuttleComponent, List<(EntityUid, PilotComponent, InputMoverComponent, TransformComponent)>)> _shuttlePilots = new();
 
-    public override void Initialize()
+    public override void Initialize() {
         base.Initialize();
         SubscribeLocalEvent<RelayInputMoverComponent, PlayerAttachedEvent>(OnRelayPlayerAttached);
         SubscribeLocalEvent<RelayInputMoverComponent, PlayerDetachedEvent>(OnRelayPlayerDetached);
@@ -124,8 +124,6 @@ public sealed class MoverController : SharedMoverController
 
         HandleShuttleMovement(frameTime);
     }
-
-<<<<<<< HEAD
 
     // Mono: make ShuttleInput
     public ShuttleInput GetPilotVelocityInput(PilotComponent component)
