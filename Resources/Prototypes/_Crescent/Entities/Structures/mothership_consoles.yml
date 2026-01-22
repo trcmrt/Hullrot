@@ -180,6 +180,7 @@
     - Adjudicator
     - Sentry
     - Minuteman #instead of guard for now
+    - Sentinel
     #- Guard --uncomment when we get an UL
 
 - type: entity

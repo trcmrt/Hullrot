@@ -1384,7 +1384,7 @@
   parent: BaseItem
   id: ShipVoucherJudge
   name: TS 'Judge' pattern LPC fabprint disk
-  description: An LPC fabprint disk loaded with a Gliessian Guard-class fighter. Has to be redeemed at a shipyard console.
+  description: An LPC fabprint disk loaded with a Gliessian Judge-class fighter. Has to be redeemed at a shipyard console.
   components:
   - type: Item
     size: Small
@@ -1396,6 +1396,24 @@
     price: 32000
   - type: ShipVoucher
     ship: Judge
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherSentinel
+  name: TS 'Sentinel' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Gliessian Sentinel-class fighter. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 18000
+  - type: ShipVoucher
+    ship: Sentinel
+
 
 
 #SRM

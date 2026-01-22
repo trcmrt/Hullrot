@@ -22,15 +22,16 @@
 
 - type: technology
   id: MinutemenHybridCorvette
-  name: research-technology-minutemen-hybrid-corvette
+  name: research-technology-minutemen-hybrid-corvettes
   icon:
     sprite: _Crescent/Objects/Misc/lpcchip.rsi
     state: icon
   discipline: Minutemen
   tier: 1
-  cost: 6000
+  cost: 9000
   recipeUnlocks:
   - MinutemanLPC
+  - SentinelLPC
 
 - type: technology
   id: MinutemenLightCrafts
@@ -74,18 +75,6 @@
   cost: 8000
   recipeUnlocks:
   - ArbiterLPC
-
-- type: technology
-  id: MinutemenIonDestroyer
-  name: research-technology-minutemen-ion-destroyer
-  icon:
-    sprite: _Crescent/Objects/Misc/lpcchip.rsi
-    state: icon
-  discipline: Minutemen
-  tier: 2
-  cost: 8000
-  recipeUnlocks:
-  - JudgeLPC
   
 - type: technology
   id: MinutemenLightMissileDestroyer
@@ -102,6 +91,18 @@
 #tier 3
 
 - type: technology
+  id: MinutemenIonDestroyer
+  name: research-technology-minutemen-ion-destroyer
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
+  discipline: Minutemen
+  tier: 3
+  cost: 12000
+  recipeUnlocks:
+  - JudgeLPC
+
+- type: technology
   id: MinutemenNTCorvette
   name: research-technology-minutemen-light-nt-corvette
   icon:
@@ -109,6 +110,6 @@
     state: icon
   discipline: Minutemen
   tier: 3
-  cost: 16000
+  cost: 12000
   recipeUnlocks:
   - ExecutionerLPC

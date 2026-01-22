@@ -27,6 +27,15 @@
     ShipHull: 4000
 
 - type: latheRecipe
+  id: SentinelLPC
+  result: ShipVoucherSentinel
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 4000
+    ShipComponents: 4000
+    ShipHull: 4000
+
+- type: latheRecipe
   id: SentryLPC
   result: ShipVoucherSentry
   completetime: 1

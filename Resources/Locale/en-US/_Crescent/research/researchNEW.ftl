@@ -39,7 +39,7 @@ research-technology-electronics-defense = Civilian Defense Pistols
 research-technology-electronics-terminus = Ogre Shocktrooper Armaments
 
 # MINUTEMEN
-research-technology-minutemen-hybrid-corvette = minutemen hybrid corvette
+research-technology-minutemen-hybrid-corvettes = minutemen hybrid corvettes
 research-technology-minutemen-light-crafts = minutemen light crafts
 research-technology-minutemen-heavy-artillery-destroyer = minutemen artillery destroyer
 research-technology-minutemen-light-missile-destroyer = minutemen missile destroyer
