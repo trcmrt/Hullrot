@@ -1076,7 +1076,7 @@ entities:
           - Toggle
     - type: NamedModules
       buttonNames:
-      - Toggle 'Curse' Ion Blaster
+      - Toggle 'Bolter' Plasma Blaster
       - Toggle 'Starlight' 150cc  Plasma Blasters
       - Bolt Bridge
       - Bolt Engineering

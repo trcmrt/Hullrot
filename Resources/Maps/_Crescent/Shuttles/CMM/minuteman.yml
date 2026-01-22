@@ -1328,7 +1328,7 @@ entities:
       parent: 1
     - type: NamedModules
       buttonNames:
-      - Toggle 'Bolter'
+      - Toggle 'Curse'
       - Fire 'Shortbows'
       - Toggle 'Shortbows'
       - Toggle Prison Blastdoors

@@ -1539,9 +1539,9 @@ entities:
       parent: 1
     - type: NamedModules
       buttonNames:
-      - Toggle 'Curse'
-      - Open 'Curse' Blastdoors
-      - Close 'Curse' Blastdoors
+      - Toggle 'Bolter'
+      - Open 'Bolter' Blastdoors
+      - Close 'Bolter' Blastdoors
       - Bolt airlocks
       - Module E
     - type: DeviceLinkSource
