@@ -10,7 +10,7 @@
 
 - type: technology
   id: MinutemenBoltRifle
-  name: research-technology-minutemen-bolt-rifle
+  name: research-technology-minutemen-light-guns
   icon:
     sprite: _Crescent/Objects/Weapons/Guns/nimrod.rsi
     state: icon
@@ -19,6 +19,7 @@
   cost: 3000
   recipeUnlocks:
   - WeaponRifleCMMNimrod
+  #- WeaponSubMachineGunWt550 - uncomment in case of SMG
 
 - type: technology
   id: MinutemenHybridCorvette
@@ -50,7 +51,7 @@
 
 #tier 2
 
-# maybe kammer in the future
+# maybe kammer in the future - uncomment in case of shotgun
 #- type: technology
 #  id: MinutemenShotgun
 #  name: research-technology-minutemen-shotgun
