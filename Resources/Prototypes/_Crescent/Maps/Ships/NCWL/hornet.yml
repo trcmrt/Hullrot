@@ -2,27 +2,23 @@
 # Discord: @fleshangel
 
 - type: vessel
-  id: HornetNCWL
+  id: HornetDrone
   name: NCWL Hornet
-  description: A light communard scouting drone.
+  description: An ultralight fighter drone.
   price: 12500
   category: Small
   group: None
   path: /Maps/_Crescent/Shuttles/NCWL/hornet.yml
 
 - type: gameMap
-  id: HornetNCWL
+  id: HornetDrone
   mapName: 'NCWL Hornet'
   mapPath: /Maps/_Crescent/Shuttles/NCWL/hornet.yml
   minPlayers: 0
   stations:
-    HornetNCWL:
+    HornetDrone:
       stationProto: StandardCrescentVessel
       components:
-        - type: VesselIcon
-          iffIcon:
-            sprite: _Crescent/ShipIcons/ifficons.rsi
-            state: player_drone
         - type: StationNameSetup
           mapNameTemplate: 'NCWL Hornet {1}'
           nameGenerator:
