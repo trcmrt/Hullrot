@@ -34,17 +34,6 @@
     shuttles:
     - ValorDrone
 
-
-- type: entity
-  id: NCWLCarrierShipyard
-  parent: BaseMothershipComputer
-  name: carrier shipyard
-  suffix: NCWL
-  components:
-  - type: ShipyardListing
-    shuttles:
-    - HornetNCWL
-
 - type: entity
   id: JackalMothershipComputer
   parent: BaseMothershipComputer
@@ -90,6 +79,16 @@
     - Perigale
     - Voruna
 
+- type: entity
+  id: UnionfallNemesisMothershipComputer
+  parent: BaseMothershipComputer
+  name: nemesis internal shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - UnionfallConquest
+    - UnionfallValor
+
 
 - type: entity
   id: InterdyneMothershipComputer
@@ -134,7 +133,6 @@
     - Bison
     - Nazaar
     - colossus
-    - Chanchu
 
 - type: entity
   id: RamziMothershipComputer
@@ -155,6 +153,16 @@
   name: zhipov internal shipyard
   components:
   - type: ShipyardListing
+
+- type: entity
+  id: UnionfallClementineMothershipComputer
+  parent: BaseMothershipComputer
+  name: clementine internal shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - UnionfallKhopesh
+    - UnionfallBroadsword
 
 - type: entity
   id: JackalCarrierMothershipComputer
