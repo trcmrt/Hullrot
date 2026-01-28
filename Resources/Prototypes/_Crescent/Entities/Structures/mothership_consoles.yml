@@ -134,6 +134,7 @@
     - Bison
     - Nazaar
     - colossus
+    - Chanchu
 
 - type: entity
   id: RamziMothershipComputer
