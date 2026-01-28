@@ -1,9 +1,10 @@
 using System.Linq;
 using System.Numerics;
 using System.Threading.Tasks;
+using Content.Server.Lightning;
 using Content.Shared._Crescent;
+using Content.Shared._Lavaland.Weapons;
 using Content.Shared.Projectiles;
-using Microsoft.CodeAnalysis.FlowAnalysis;
 using Robust.Server.GameObjects;
 using Robust.Shared.Physics;
 using Robust.Shared.Physics.Components;
@@ -12,7 +13,6 @@ using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Threading;
 
-namespace Content.Server._Crescent;
 
 /// <summary>
 ///  Written by MLGTASTICa/SPCR 2025 for Hullrot EE
@@ -20,7 +20,6 @@ namespace Content.Server._Crescent;
 ///  This system is expected to be ran on objects that DO not have any HARD-FIXTURES. As in all-collision events are handled only by this and not by physics due to actual body collision.
 /// </summary>
 ///
-
 public class ProjectilePhasePreventerSystem : EntitySystem
 {
     [Dependency] private readonly PhysicsSystem _phys = default!;
@@ -130,9 +129,8 @@ public class ProjectilePhasePreventerSystem : EntitySystem
                     checkUid = projectileWeaponTransform.GridUid!.Value;
                 foreach (var hit in _phys.IntersectRay(_trans.GetMapId(owner), ray,rayLength, projectile.Weapon, false))
                 {
-                    if(owner == hit.HitEntity)
+                    if (owner == hit.HitEntity)
                         continue;
-                    //sawLogs.Log(LogLevel.Debug, owner.ToString() +  " Pre check hit: " + hit.HitEntity.ToString());
                     // whilst the raycast supports a filter function . i do not want to package variabiles in lambdas in bulk
                     if (projectile.Shooter == hit.HitEntity && projectile.IgnoreShooter)
                         continue;
@@ -143,7 +141,6 @@ public class ProjectilePhasePreventerSystem : EntitySystem
                     // dont raise these. We cut some slack for the main thread by running it here.
                     if (hitTransform.GridUid is not null && checkUid == hitTransform.GridUid && projectile.IgnoreWeaponGrid)
                         continue;
-                    //sawLogs.Log(LogLevel.Debug, owner.ToString() + " Post check hit: " + hit.HitEntity.ToString());
                     var targetPhysics = physQuery.GetComponent(hit.HitEntity);
                     PhysicsComponent bulletPhysics = physQuery.GetComponent(owner);
                     var targetFixtures = fixtureQuery.GetComponent(hit.HitEntity);
@@ -167,7 +164,7 @@ public class ProjectilePhasePreventerSystem : EntitySystem
 
         if (processingBuckets.Count > 3)
         {
-            sawLogs.Log(LogLevel.Debug, $"Processing {processingBuckets.Count} buckets with estimated bullet count of {processingBuckets.Count * raysPerThread}");
+            sawLogs.Info($"Processing {processingBuckets.Count} buckets with estimated bullet count of {processingBuckets.Count * raysPerThread}");
         }
 
         var count = 0;
@@ -178,16 +175,15 @@ public class ProjectilePhasePreventerSystem : EntitySystem
                 if (TerminatingOrDeleted(eventData.selfEntity) || TerminatingOrDeleted(eventData.hitEntity))
                     continue;
                 var fEv = eventData;
-                //sawLogs.Log(LogLevel.Debug, $"attempting to raise hit event from: {eventData.selfEntity}, hitting: {eventData.hitEntity}");
                 try
                 {
                     count++;
                     RaiseLocalEvent(eventData.selfEntity, ref fEv, true);
-                    //sawLogs.Log(LogLevel.Debug, $"Raised event on {MetaData(eventData.selfEntity).EntityName}"); //dont think we need this anymore .2 | 2025
+                    //Logger.Debug($"Raised event on {MetaData(eventData.selfEntity).EntityName}"); //dont think we need this anymore .2 | 2025
                 }
                 catch (Exception e)
                 {
-                    sawLogs.Error(e.Message + " at " + e.StackTrace);
+                    sawLogs.Error(e.Message);
                 }
             }
         }
@@ -195,5 +191,7 @@ public class ProjectilePhasePreventerSystem : EntitySystem
         {
             sawLogs.Info($"Processed {count} events on main-thread");
         }
+
+
     }
 }
