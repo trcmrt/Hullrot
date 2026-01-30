@@ -74,6 +74,10 @@ namespace Content.Server.Database
                 v => JsonDocumentToByteArray(v),
                 v => ByteArrayToJsonDocument(v));
 
+            var stringArrayConverter = new ValueConverter<string[], string>(
+                v => string.Join(",", v ?? Array.Empty<string>()),
+                v => v.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries));
+
             modelBuilder.Entity<AdminLog>()
                 .Property(log => log.Json)
                 .HasConversion(jsonStringConverter);
@@ -82,10 +86,9 @@ namespace Content.Server.Database
                 .Property(log => log.Markings)
                 .HasConversion(jsonByteArrayConverter);
 
-            // EF core can make this automatically unique on sqlite but not psql.
-            modelBuilder.Entity<IPIntelCache>()
-                .HasIndex(p => p.Address)
-                .IsUnique();
+            modelBuilder.Entity<Profile>()
+                .Property(log => log.CharacterFlags)
+                .HasConversion(stringArrayConverter);
         }
 
         public override int CountAdminLogs()
