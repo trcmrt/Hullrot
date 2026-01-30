@@ -4,24 +4,25 @@
   result: TradeGoodOrgans
   completetime: 2
   materials:
-    ExoticProteins: 2500
+    ExoticProteins: 5000
 
 - type: latheRecipe
   id: MiltechCrate
   result: TradeGoodMiltech
   completetime: 2
   materials:
-    Steel: 1000
-    Gold: 300
-    Silver: 200
+    Steel: 2500
+    Gold: 600
+    Silver: 800
 
 - type: latheRecipe
   id: AlloysCrate
   result: TradeGoodAlloys
   completetime: 2
   materials:
-    Steel: 1000
-    Plasma: 500
+    Steel: 3000
+    Plasma: 2500
+    Tungsten: 500
 
 - type: latheRecipe
   id: PlasmaCrate
@@ -29,15 +30,15 @@
   completetime: 2
   materials:
     Steel: 500
-    Plasma: 1000
+    Plasma: 5000
 
 - type: latheRecipe
   id: WineCrate
   result: TradeGoodWine
   completetime: 2
   materials:
-    Biomass: 100
-    Glass: 1000
+    Biomass: 250
+    Glass: 2500
 
 - type: latheRecipe
   id: FabricsCrate
