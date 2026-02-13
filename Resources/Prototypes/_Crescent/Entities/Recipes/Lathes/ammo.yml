@@ -136,7 +136,7 @@
   result: MagazineRifleDrum
   completetime: 1
   materials:
-    Steel: 600
+    Steel: 1600
 
 - type: latheRecipe
   id: MagazineRiflePan
@@ -150,7 +150,7 @@
   result: MagazineLightRifleBox
   completetime: 1
   materials:
-    Steel: 9000
+    Steel: 1000
 
 - type: latheRecipe
   id: MagazineHeavyRifleSmall
