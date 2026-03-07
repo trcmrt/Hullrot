@@ -14,6 +14,10 @@
     fiberMaterial: fibers-durathread
     fiberColor: fibers-black
   - type: FingerprintMask
+  - type: ReverseEngineering # Sector Crescent
+    recipes:
+      - ClothingHandsGlovesImperialLonggloves
+      - ClothingHandsGlovesImperialWorkerGloves
 
 - type: entity
   parent: ClothingHandsBase
@@ -48,6 +52,10 @@
     fiberMaterial: fibers-durathread
     fiberColor: fibers-black
   - type: FingerprintMask
+  - type: ReverseEngineering # Sector Crescent
+    recipes:
+      - ClothingHandsGlovesImperialWorkerGloves
+      - ClothingHandsGlovesImperialLonggloves
 
 - type: entity
   parent: ClothingHandsBase

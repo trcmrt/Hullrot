@@ -9,6 +9,7 @@
       capacity: 12
     - type: Sprite
       layers:
+<<<<<<< HEAD
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-slug-1
@@ -17,6 +18,10 @@
     - type: GuideHelp
       guides: [ Mindbreaking ]
 
+=======
+        - state: boxwide
+        - state: shellslug
+>>>>>>> upstream/master
 
 - type: entity
   name: box of 8.3×33mm Universal magazines

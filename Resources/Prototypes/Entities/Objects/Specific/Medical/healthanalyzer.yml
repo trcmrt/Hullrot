@@ -36,7 +36,11 @@
           False: { visible: false }
   - type: GuideHelp
     guides:
+<<<<<<< HEAD
     - Medical Doctor
+=======
+    - MedicalDoctor
+>>>>>>> upstream/master
   - type: DamageOtherOnHit
     damage:
       types:

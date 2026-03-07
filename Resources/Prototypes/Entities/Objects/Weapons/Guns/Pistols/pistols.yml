@@ -161,9 +161,6 @@
   description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century.
     Uses .35 auto ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
-  components:
-  - type: GuideHelp
-    guides: [ SecurityWeapons ]
 
 - type: entity
   name: echis
@@ -201,8 +198,20 @@
   - type: AmmoCounter
 
 - type: entity
+<<<<<<< HEAD
   name: cobra
   parent: [ BaseWeaponPistol, BaseSyndicateContraband ]
+=======
+  id: PTAViper9x19mm
+  parent: WeaponPistolViperNonLethal
+  suffix: Non-lethal, SecurityLoadouts
+  description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century.
+               Uses 9x19mm PSTF ammo. The serial number on the handguard marks this gun as belonging to some sort of corporate security.
+
+- type: entity
+  name: PTAT2Cobra9x39mm
+  parent: BaseWeaponPistol
+>>>>>>> upstream/master
   id: WeaponPistolCobra
   description: A rugged, robust operator handgun with inbuilt silencer. Uses 9x39mm caseless ammo.
   components:
@@ -317,6 +326,9 @@
         whitelist:
           tags:
             - CartridgePistol6mm
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - WeaponPistolMk58SHI
 
 - type: entity
   name: SHI MK58 Tayamura 9x19mm
@@ -350,13 +362,48 @@
   description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
     The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
-  components:
-  - type: GuideHelp
-    guides: [ SecurityWeapons ]
 
 - type: entity
+<<<<<<< HEAD
   name: N1984
   parent: [BaseWeaponPistol, BaseRestrictedContraband]
+=======
+  id: WeaponPistolMk58Nonlethal
+  parent: WeaponPistolMk58
+  suffix: Non-lethal
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Pistols/mk58nl.rsi
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistolRubber
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistol
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistolRubber
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
+
+- type: entity
+  id: SHIMK58Tayamura9x19mm
+  parent: WeaponPistolMk58Nonlethal
+  suffix: Non-lethal, Security Loadouts
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses 9x19mm PSTF ammo.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+
+- type: entity
+  name: NT N1984 Marston .327
+  parent: BaseWeaponPistol
+>>>>>>> upstream/master
   id: WeaponPistolN1984 # the spaces in description are for formatting.
   description: The sidearm of any self respecting officer. Comes in .327, the lord's caliber.
   components:
@@ -427,9 +474,46 @@
   name: NT N1984 Marston .327
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Security # the spaces in description are for formatting.
+<<<<<<< HEAD
   description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
     The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+=======
+  description: The sidearm of any self respecting officer. Comes in 8.3×33mm, the lord's caliber.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
+
+- type: entity
+  name: N1984
+  parent: WeaponPistolN1984
+  id: WeaponPistolN1984NonLethal
+  suffix: Non-lethal
   components:
-  - type: GuideHelp
-    guides: [ SecurityWeapons ]
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Pistols/N1984nl.rsi
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMagnumRubber
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineMagnum
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMagnumRubber
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMagnum
+
+- type: entity
+  name: NT N1984 Marston .327
+  parent: WeaponPistolN1984NonLethal
+  id: WeaponPistolN1984SecurityNonLethal
+  description: The sidearm of any self respecting officer. Comes in .327, the lord's caliber.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+>>>>>>> upstream/master
+  suffix: Security Loadouts

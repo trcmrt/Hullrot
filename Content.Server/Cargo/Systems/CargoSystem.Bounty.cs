@@ -128,7 +128,11 @@ public sealed partial class CargoSystem
             msg.PushNewline();
         }
         msg.AddMarkupOrThrow(Loc.GetString("bounty-console-manifest-reward", ("reward", prototype.Reward)));
+<<<<<<< HEAD
         _paperSystem.SetContent((uid, paper), msg.ToMarkup());
+=======
+        _paperSystem.SetContent(uid, msg.ToMarkup());
+>>>>>>> upstream/master
     }
 
     /// <summary>
@@ -472,7 +476,11 @@ public sealed partial class CargoSystem
                     skipped
                         ? CargoBountyHistoryData.BountyResult.Skipped
                         : CargoBountyHistoryData.BountyResult.Completed,
+<<<<<<< HEAD
                     _gameTiming.CurTime,
+=======
+                    _timing.CurTime,
+>>>>>>> upstream/master
                     actorName));
                 ent.Comp.Bounties.RemoveAt(i);
                 return true;

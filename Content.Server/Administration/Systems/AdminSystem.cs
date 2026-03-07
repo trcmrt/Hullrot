@@ -105,7 +105,39 @@ public sealed class AdminSystem : EntitySystem
                 || !_playerManager.TryGetSessionById(id, out var session))
                 continue;
 
+<<<<<<< HEAD
             _playerList[id] = GetPlayerInfo(playerData, session);
+=======
+            _playerManager.PlayerStatusChanged += OnPlayerStatusChanged;
+            _adminManager.OnPermsChanged += OnAdminPermsChanged;
+
+            // Panic Bunker Settings
+            Subs.CVar(_config, CCVars.PanicBunkerEnabled, OnPanicBunkerChanged, true);
+            Subs.CVar(_config, CCVars.PanicBunkerDisableWithAdmins, OnPanicBunkerDisableWithAdminsChanged, true);
+            Subs.CVar(_config, CCVars.PanicBunkerEnableWithoutAdmins, OnPanicBunkerEnableWithoutAdminsChanged, true);
+            Subs.CVar(_config, CCVars.PanicBunkerCountDeadminnedAdmins, OnPanicBunkerCountDeadminnedAdminsChanged, true);
+            Subs.CVar(_config, CCVars.PanicBunkerShowReason, OnShowReasonChanged, true);
+            Subs.CVar(_config, CCVars.PanicBunkerMinAccountAge, OnPanicBunkerMinAccountAgeChanged, true);
+            Subs.CVar(_config, CCVars.PanicBunkerMinOverallMinutes, OnPanicBunkerMinOverallHoursChanged, true);
+
+            /*
+             * TODO: Remove baby jail code once a more mature gateway process is established. This code is only being issued as a stopgap to help with potential tiding in the immediate future.
+             */
+
+            // Baby Jail Settings
+            Subs.CVar(_config, CCVars.BabyJailEnabled, OnBabyJailChanged, true);
+            Subs.CVar(_config, CCVars.BabyJailShowReason, OnBabyJailShowReasonChanged, true);
+            Subs.CVar(_config, CCVars.BabyJailMaxAccountAge, OnBabyJailMaxAccountAgeChanged, true);
+            Subs.CVar(_config, CCVars.BabyJailMaxOverallHours, OnBabyJailMaxOverallHoursChanged, true);
+            Subs.CVar(_config, CCVars.PanicBunkerMinOverallMinutes, OnPanicBunkerMinOverallHoursChanged, true);
+
+            SubscribeLocalEvent<IdentityChangedEvent>(OnIdentityChanged);
+            SubscribeLocalEvent<PlayerAttachedEvent>(OnPlayerAttached);
+            SubscribeLocalEvent<PlayerDetachedEvent>(OnPlayerDetached);
+            SubscribeLocalEvent<RoleAddedEvent>(OnRoleEvent);
+            SubscribeLocalEvent<RoleRemovedEvent>(OnRoleEvent);
+            SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestartCleanup);
+>>>>>>> upstream/master
         }
 
         var updateEv = new FullPlayerListEvent() { PlayersInfo = _playerList.Values.ToList() };

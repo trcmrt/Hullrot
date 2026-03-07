@@ -196,6 +196,8 @@ namespace Content.Server.GameTicking
         {
             var ev = RaisePreLoad(proto, options, offset, rot);
 
+            Logger.Info(ev.GameMap.MapPath.ToString());
+
             if (ev.GameMap.IsGrid)
             {
                 var mapUid = _map.CreateMap(out mapId);
@@ -210,17 +212,26 @@ namespace Content.Server.GameTicking
                 }
 
                 _metaData.SetEntityName(mapUid, proto.MapName);
-                var g = new List<EntityUid> {grid.Value.Owner};
+                var g = new List<EntityUid> { grid.Value.Owner };
                 RaiseLocalEvent(new PostGameMapLoad(proto, mapId, g, stationName));
                 return g;
             }
 
+<<<<<<< HEAD
             if (!_loader.TryLoadMap(ev.GameMap.MapPath,
                 out var map,
                 out var grids,
                 ev.Options,
                 ev.Offset,
                 ev.Rotation))
+=======
+            if (!_loader.TryLoadMap(ev.GameMap.MapPath, //this causes an engine related crash yippee!
+                    out var map,
+                    out var grids,
+                    ev.Options,
+                    ev.Offset,
+                    ev.Rotation))
+>>>>>>> upstream/master
             {
                 throw new Exception($"Failed to load game map {ev.GameMap.ID}");
             }
@@ -260,7 +271,7 @@ namespace Content.Server.GameTicking
                 }
 
                 _metaData.SetEntityName(mapUid, proto.MapName);
-                var g = new List<EntityUid> {grid.Value.Owner};
+                var g = new List<EntityUid> { grid.Value.Owner };
                 RaiseLocalEvent(new PostGameMapLoad(proto, mapId, g, stationName));
                 return g;
             }
@@ -310,7 +321,7 @@ namespace Content.Server.GameTicking
                     throw new Exception($"Failed to load game-map grid {ev.GameMap.ID}");
                 }
 
-                var g = new List<EntityUid> {grid.Value.Owner};
+                var g = new List<EntityUid> { grid.Value.Owner };
                 // TODO MAP LOADING use a new event?
                 RaiseLocalEvent(new PostGameMapLoad(proto, targetMap, g, stationName));
                 return g;
@@ -404,6 +415,7 @@ namespace Content.Server.GameTicking
             DebugTools.AssertEqual(readyPlayers.Count, ReadyPlayerCount());
 
             // Just in case it hasn't been loaded previously we'll try loading it.
+            // This is the func that crashes with Empty.yml
             LoadMaps();
 
             // map has been selected so update the lobby info text

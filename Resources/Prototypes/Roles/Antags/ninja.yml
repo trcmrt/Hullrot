@@ -4,6 +4,7 @@
   antagonist: true
   setPreference: false
   objective: roles-antag-space-ninja-objective
+<<<<<<< HEAD
   guides: [ SpaceNinja ]
 
 #Ninja Gear
@@ -47,3 +48,5 @@
   equipment:
     jumpsuit: ClothingUniformEnvirosuitColorBlack # TODO: actual ninja envirosuit
     suitstorage: PlasmaTankFilled
+=======
+>>>>>>> upstream/master

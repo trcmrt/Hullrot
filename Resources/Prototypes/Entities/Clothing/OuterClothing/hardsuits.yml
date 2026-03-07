@@ -68,8 +68,6 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitAtmos
-  - type: GuideHelp
-    guides: [ HephaestusIndustries ]
 
 #Engineering Hardsuit
 - type: entity
@@ -127,8 +125,6 @@
     clothingPrototype: ClothingHeadHelmetHardsuitEngineering
   - type: StaminaDamageResistance
     coefficient: 0.75 # 25%
-  - type: GuideHelp
-    guides: [ HephaestusIndustries ]
   - type: TemperatureProtection
     heatingCoefficient: 0.001
     coolingCoefficient: 0.001
@@ -151,18 +147,32 @@
     lowPressureMultiplier: 1000
   - type: Armor
     modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Radiation: 0.3 #salv is supposed to have radiation hazards in the future
-        Caustic: 0.8
+      coefficients: #now uses hullrot armor system. yay.
+        #Blunt: 0.9
+        #Slash: 0.9
+        #Piercing: 0.9
+        Radiation: 0.2 #80% rad resistance. Useful for civilian use. Hullrot change
+        #Caustic: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+  - type: DegradeableArmor
+    armorMaxHealth: 500
+    armorType: Metallic
+    armorRepair: SteelPlate
+    initialModifiers:
+      flatReductions:
+        Blunt: 20
+        Slash: 20
+        Piercing: 20
+        Heat: 15
+        Caustic: 25
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.8
+    walkModifier: 1
+    sprintModifier: 1
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSpatio
+<<<<<<< HEAD
   - type: Tag
     tags:
     - Hardsuit
@@ -170,6 +180,8 @@
     - HardsuitSpatio
   - type: GuideHelp
     guides: [ HephaestusIndustries ]
+=======
+>>>>>>> upstream/master
 
 #Salvage Hardsuit
 - type: entity
@@ -201,8 +213,6 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSalvage
-  - type: GuideHelp
-    guides: [ HephaestusIndustries ]
 
 #Goliath Hardsuit
 - type: entity
@@ -234,10 +244,15 @@
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
+<<<<<<< HEAD
     clothingPrototype: ClothingHeadHelmetHardsuitGoliath
   - type: Construction
     graph: HardsuitGoliath
     node: hardsuitGoliath
+=======
+    clothingPrototype: ClothingHeadHelmetHardsuitVoidParamed
+
+>>>>>>> upstream/master
 
 #Maxim Hardsuit
 - type: entity
@@ -273,8 +288,6 @@
     reduction: 1
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitMaxim
-  - type: GuideHelp
-    guides: [ HephaestusIndustries ]
 
 #Paramedic Voidsuit
 - type: entity
@@ -472,8 +485,6 @@
     clothingPrototype: ClothingHeadHelmetHardsuitCap
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
-  - type: GuideHelp
-    guides: [ NanoTrasen ]
 
 #Chief Engineer's Hardsuit
 - type: entity
@@ -516,8 +527,6 @@
     - type: SupermatterImmune
   - type: StaminaDamageResistance
     coefficient: 0.65 # 35%
-  - type: GuideHelp
-    guides: [ HephaestusIndustries ]
   - type: TemperatureProtection
     heatingCoefficient: 0.001
     coolingCoefficient: 0.001
@@ -548,8 +557,6 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitMedical
-  - type: GuideHelp
-    guides: [ ZengHuPharmaceuticals ]
 
 #Research Director's Hardsuit
 - type: entity
@@ -596,8 +603,6 @@
     stealGroup: ClothingOuterHardsuitRd
   - type: StaminaDamageResistance
     coefficient: 0.75 # 25% as in "shock resistance" :trollface:
-  - type: GuideHelp
-    guides: [ NanoTrasen ]
 
 #Head of Security's Hardsuit
 - type: entity
@@ -664,8 +669,6 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitLuxury
-  - type: GuideHelp
-    guides: [ HephaestusIndustries ]
 
 #ANTAG HARDSUITS
 #Blood-red Hardsuit
@@ -771,6 +774,11 @@
     - Hardsuit
     - WhitelistChameleon
     - HidesHarpyWings
+  - type: ReverseEngineering
+    difficulty: 3
+    recipes:
+      - ClothingOuterHardsuitSyndieMedicCyberdawn
+      - ClothingOuterHardsuitCybersun
 
 #Syndicate Elite Hardsuit
 - type: entity

@@ -522,12 +522,17 @@ namespace Content.Client.Lobby.UI
 
             #endregion Jobs
 
-            #region Antags
+            //#region Antags
 
+<<<<<<< HEAD
             Antags.Orphan();
             // CTabContainer.AddTab(Antags, Loc.GetString("humanoid-profile-editor-antags-tab"));
+=======
+            //Antags.Orphan();
+            //CTabContainer.AddTab(Antags, Loc.GetString("humanoid-profile-editor-antags-tab"));
+>>>>>>> upstream/master
 
-            #endregion Antags
+            //#endregion Antags
 
             #region Traits
 

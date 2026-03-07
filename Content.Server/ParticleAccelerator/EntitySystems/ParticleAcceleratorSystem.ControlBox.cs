@@ -17,7 +17,10 @@ public sealed partial class ParticleAcceleratorSystem
 {
     [Dependency] private readonly IAdminManager _adminManager = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
     private void InitializeControlBoxSystem()
     {
         SubscribeLocalEvent<ParticleAcceleratorControlBoxComponent, ComponentStartup>(OnComponentStartup);

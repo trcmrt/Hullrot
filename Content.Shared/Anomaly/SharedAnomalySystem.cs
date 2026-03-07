@@ -33,9 +33,12 @@ public abstract class SharedAnomalySystem : EntitySystem
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
     [Dependency] protected readonly SharedPopupSystem Popup = default!;
     [Dependency] private readonly IPrototypeManager _prototype = default!;
+<<<<<<< HEAD
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly SharedMapSystem _map = default!;
 
+=======
+>>>>>>> upstream/master
     public override void Initialize()
     {
         base.Initialize();

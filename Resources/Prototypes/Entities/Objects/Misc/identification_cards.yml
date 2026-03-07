@@ -859,6 +859,10 @@
     faction: Syndicate
   - type: NanoChatCard
     listNumber: false
+  - type: ReverseEngineering
+    difficulty: 2
+    recipes:
+      - AgentIDCardCyberdawn
 
 - type: entity
   name: passenger ID card

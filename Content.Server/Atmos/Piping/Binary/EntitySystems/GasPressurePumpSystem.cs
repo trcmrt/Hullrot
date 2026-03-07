@@ -5,7 +5,12 @@ using Content.Server.NodeContainer.Nodes;
 using Content.Server.Power.Components;
 using Content.Shared.Atmos;
 using Content.Shared.Atmos.Components;
+<<<<<<< HEAD
 using Content.Shared.Atmos.EntitySystems;
+=======
+using Content.Shared.Atmos.Piping;
+using Content.Shared.Atmos.Piping.Binary.Components;
+>>>>>>> upstream/master
 using Content.Shared.Audio;
 using JetBrains.Annotations;
 

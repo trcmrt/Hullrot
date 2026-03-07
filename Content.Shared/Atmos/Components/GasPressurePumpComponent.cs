@@ -3,7 +3,11 @@ using Robust.Shared.GameStates;
 
 namespace Content.Shared.Atmos.Components;
 
+<<<<<<< HEAD
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
+=======
+[RegisterComponent, NetworkedComponent, AutoGenerateComponentState(raiseAfterAutoHandleState: true)]
+>>>>>>> upstream/master
 public sealed partial class GasPressurePumpComponent : Component
 {
     [DataField, AutoNetworkedField]
@@ -22,6 +26,9 @@ public sealed partial class GasPressurePumpComponent : Component
     ///     Max pressure of the target gas (NOT relative to source).
     /// </summary>
     [DataField]
+<<<<<<< HEAD
     [GuidebookData]
+=======
+>>>>>>> upstream/master
     public float MaxTargetPressure = Atmospherics.MaxOutputPressure;
 }

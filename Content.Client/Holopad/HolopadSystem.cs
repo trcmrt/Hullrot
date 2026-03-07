@@ -5,8 +5,13 @@ using Robust.Client.Graphics;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using System.Linq;
+<<<<<<< HEAD
 using DrawDepth = Content.Shared.DrawDepth.DrawDepth;
 
+=======
+using System.Numerics;
+using DrawDepth = Content.Shared.DrawDepth.DrawDepth;
+>>>>>>> upstream/master
 namespace Content.Client.Holopad;
 
 public sealed class HolopadSystem : SharedHolopadSystem

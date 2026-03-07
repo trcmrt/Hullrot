@@ -230,3 +230,38 @@
 
 
 
+<<<<<<< HEAD
+=======
+- type: latheRecipe
+  id: BioGenChefVendRestock
+  result: VendingMachineRestockChefvend
+  category: Food
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  completetime: 10
+  materials:
+    Biomass: 200
+
+- type: latheRecipe
+  id: BioGenFoodNutribrick
+  result: FoodSnackNutribrick
+  category: Food
+  icon:
+    sprite: Objects/Consumable/Food/snacks.rsi
+    state: nutribrick
+  completetime: 10
+  materials:
+    Biomass: 15
+
+- type: latheRecipe
+  id: BioGenFoodPSB
+  result: FoodPSB
+  category: Food
+  icon:
+    sprite: Nyanotrasen/Objects/Consumable/Food/ration.rsi
+    state: psb
+  completetime: 10
+  materials:
+    Biomass: 10
+>>>>>>> upstream/master

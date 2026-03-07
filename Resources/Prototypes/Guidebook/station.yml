@@ -6,10 +6,15 @@
   children:
   - Jobs
   - Survival
+<<<<<<< HEAD:Resources/Prototypes/Guidebook/station.yml
   - Antagonists
+=======
+  - Chemicals
+  - Species
+  - Writing
+>>>>>>> upstream/master:Resources/Prototypes/Guidebook/ss14.yml
   - Glossary
   - LoadoutInfo
-  - SettingLore
   - Psionics
 
 - type: guideEntry

@@ -149,3 +149,33 @@ job-name-conscript-dsm-rifleman = Armsman (Rifle)
 job-name-conscript-dsm-cadet = Recruit
 
 
+<<<<<<< HEAD
+=======
+job-name-unionfall-ncwl-ship-captain = Ship Captain
+job-name-unionfall-ncwl-ship-crew = Ship Crew
+job-name-unionfall-ncwl-leader = Fleet Kommandant
+job-name-unionfall-ncwl-officer = Kommissar
+job-name-unionfall-ncwl-doctor = Doktor
+job-name-unionfall-ncwl-rifleman = Soldat
+job-name-unionfall-ncwl-cadet = Cadet
+
+# unionfall-dsm
+job-name-unionfall-dsm-ship-captain = Ship Grand Steward
+job-name-unionfall-dsm-ship-crew = Ship Steward
+job-name-unionfall-dsm-leader = Knight-Bannaret
+job-name-unionfall-dsm-officer = Knight
+job-name-unionfall-dsm-doctor = Medicant
+job-name-unionfall-dsm-rifleman = Man-at-arms
+job-name-unionfall-dsm-cadet = Levyman
+
+# event roles
+job-name-ncwl-conscript-event = Homeguard Militiaman
+job-name-ncwl-conscript-event-SMG = Homeguard SMG Militiaman
+job-name-ncwl-spetsnaz-event-SMG = Chengridz SOF Pointman
+job-name-ncwl-spetsnaz-event = Chengridz SOF Operator
+job-name-ncwl-spetsnaz-event-kapitan = Chengridz SOF Kapitan
+job-name-dsm-conscript-event = Imperial Shield Fyrdman
+job-name-dsm-conscript-event-SMG = Imperial Shield Fyrdman Pointman
+job-name-dsm-specops-event = Spezialkräfte Kommando
+job-name-dsm-specops-event-shotgun = Spezialkräfte Pointman
+>>>>>>> upstream/master
