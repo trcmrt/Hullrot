@@ -22,6 +22,7 @@
           designation: vessel-designation-headquarters
         - type: StationJobs
           availableJobs:
+            ProphetTAP: [ 1, 1 ]
             DraugrTAP: [ 1, 1 ]
             ServileTAP: [ 2, 2 ]
             BeltrunnerTAP: [ 1, 1 ]

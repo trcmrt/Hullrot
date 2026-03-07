@@ -40,7 +40,15 @@
     raffle:
       settings: default
   - type: GhostRoleMobSpawner
+<<<<<<< HEAD
     prototype: C_PlayerBorgSyndicateAssaultGhostRole
+=======
+    prototype: PlayerBorgSyndicateMedicalBattery
+  - type: ReverseEngineering
+    difficulty: 3
+    recipes:
+      - ReinforcementFlatpackSyndicateCyborgMedical
+>>>>>>> upstream/master
 
 - type: entity
   parent: ReinforcementRadioSyndicate
@@ -62,4 +70,12 @@
     raffle:
       settings: default
   - type: GhostRoleMobSpawner
+<<<<<<< HEAD
     prototype: C_PlayerBorgSyndicateSaboteurBattery
+=======
+    prototype: PlayerBorgSyndicateSaboteurBattery
+  - type: ReverseEngineering
+    difficulty: 3
+    recipes:
+      - ReinforcementFlatpackSyndicateCyborgSaboteur
+>>>>>>> upstream/master
