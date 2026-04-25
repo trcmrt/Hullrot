@@ -1,7 +1,7 @@
 - type: gameMap
   id: TribalHideout
   mapName: 'Tribal Hideout'
-  mapPath: /Maps/_Crescent/Stations/tribalhideout.yml
+  mapPath: /Maps/_Crescent/Stations/ruinedtribaloutpost.yml
   minPlayers: 0
   stations:
     TribalHideout:
@@ -22,8 +22,4 @@
           designation: vessel-designation-headquarters
         - type: StationJobs
           availableJobs:
-            ProphetTAP: [ 1, 1 ]
-            DraugrTAP: [ 1, 1 ]
-            ServileTAP: [ 2, 2 ]
-            BeltrunnerTAP: [ 1, 1 ]
-            Antiquarian: [ 1, 1 ]
+            Vagrant: [ 3, 3]

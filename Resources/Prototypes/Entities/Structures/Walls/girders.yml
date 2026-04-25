@@ -71,7 +71,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 200
+            damage: 1200
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -80,7 +80,7 @@
                 collection: MetalBreak
         - trigger:
             !type:DamageTrigger
-            damage: 50
+            damage: 1000
           behaviors:
             - !type:SpawnEntitiesBehavior
               spawn:

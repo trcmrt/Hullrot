@@ -33,9 +33,9 @@ job-name-cyberdawntech = Cyberdawn Researcher
 job-name-intelligenceofficer = Patriarch
 job-name-shipbreaker = Shipbreaker
 job-name-foreman = SAW Foreman
-ghost-role-information-syndicate-cyborg-assault-name-c = CS 5401 Xigou assault cyborg
+ghost-role-information-syndicate-cyborg-assault-name = CS 5401 Xigou assault cyborg
 ghost-role-information-syndicate-cyborg-Medical-name = CS 4201 Yao Wang Combat Medical cyborg
-ghost-role-information-syndicate-cyborg-saboteur-name-c = CS 3201 Sun Wukong Combat saboteur cyborg
+ghost-role-information-syndicate-cyborg-saboteur-name = CS 3201 Sun Wukong Combat saboteur cyborg
 
 # empire
 
@@ -112,7 +112,7 @@ job-name-vorarbeiter = Vorarbeiter
 job-name-arbeiter = Arbeiter
 
 # misc
-
+job-name-vagrant = Vagrant
 job-name-antiquarian = Izdari Antiquarian
 job-name-spacer = Spacer
 job-name-gliess-dockhand = Gliessian Dockhand
@@ -121,36 +121,21 @@ job-name-gliess-deputy = Gliessian Militiaman
 job-name-gliess-dockmaster = Gliessian Dockmaster
 
 # conscript-ncwl - for PLANETFALL
+# someones been here before... i am only retracing steps...
 
-job-name-conscript-ncwl-ship-captain = Clementine Admiral
-job-name-conscript-ncwl-ship-crew = Clementine Artificer
-job-name-conscript-ncwl-leader = Major
-job-name-conscript-ncwl-officer = Kommissar
-job-name-conscript-ncwl-amr = Specialist (AMR)
-job-name-conscript-ncwl-lmg = Specialist (LMG)
-job-name-conscript-ncwl-doctor = Doktor
-job-name-conscript-ncwl-smg = Breacher (SMG)
-job-name-conscript-ncwl-shotgun = Breacher (Shotgun)
-job-name-conscript-ncwl-rifleman = Soldat (Rifle)
-job-name-conscript-ncwl-cadet = Cadet
+job-name-planetfall-team1-leader = SHI Commander
+job-name-planetfall-team1-subleader = SHI Squad Leader
+job-name-planetfall-team1-member = SHI Infantry
 
 # conscript-dsm - for PLANETFALL
+# someones been here before... i am only retracing steps...
 
-job-name-conscript-dsm-ship-captain = Nemesis Grand Steward
-job-name-conscript-dsm-ship-crew = Nemesis Steward
-job-name-conscript-dsm-leader = Knight-Bannaret
-job-name-conscript-dsm-officer = Knight
-job-name-conscript-dsm-amr = Ward (AMR)
-job-name-conscript-dsm-lmg = Ward (LMG)
-job-name-conscript-dsm-doctor = Medicant
-job-name-conscript-dsm-smg = Squire (SMG)
-job-name-conscript-dsm-shotgun = Squire (Shotgun)
-job-name-conscript-dsm-rifleman = Armsman (Rifle)
-job-name-conscript-dsm-cadet = Recruit
+job-name-planetfall-team2-leader = PTA Commander
+job-name-planetfall-team2-subleader = PTA Squad Leader
+job-name-planetfall-team2-member = PTA Infantry
 
+# unionfall-ncwl
 
-<<<<<<< HEAD
-=======
 job-name-unionfall-ncwl-ship-captain = Ship Captain
 job-name-unionfall-ncwl-ship-crew = Ship Crew
 job-name-unionfall-ncwl-leader = Fleet Kommandant
@@ -178,4 +163,3 @@ job-name-dsm-conscript-event = Imperial Shield Fyrdman
 job-name-dsm-conscript-event-SMG = Imperial Shield Fyrdman Pointman
 job-name-dsm-specops-event = Spezialkräfte Kommando
 job-name-dsm-specops-event-shotgun = Spezialkräfte Pointman
->>>>>>> upstream/master
