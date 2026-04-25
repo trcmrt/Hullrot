@@ -21,7 +21,7 @@
     hideOnToggle: true
 
 - type: entity
-  parent: [ClothingMaskGas, BaseRestrictedContraband]
+  parent: ClothingMaskGas
   id: ClothingMaskGasSecurity
   name: security gas mask
   description: A standard issue Security gas mask.
@@ -39,7 +39,7 @@
         Slash: 0.95
         Piercing: 0.95
         Heat: 0.95
-  - type: IngestionBlocker
+  - type: IngestionBlocker # Goobstation
     blockSmokeIngestion: true
   - type: Tag # Goobstation - For survial boxes
     tags:
@@ -47,28 +47,18 @@
     - WhitelistChameleon
     - SecurityBreathMask
 
-
 - type: entity
-  parent: [ClothingMaskGas, BaseSyndicateContraband]
+  parent: ClothingMaskGas
   id: ClothingMaskGasSyndicate
   name: syndicate gas mask
   description: A close-fitting tactical mask that can be connected to an air supply.
   components:
-  - type: Item
-    size: Tiny
   - type: Sprite
     sprite: Clothing/Mask/gassyndicate.rsi
   - type: Clothing
     sprite: Clothing/Mask/gassyndicate.rsi
-  - type: EyeProtection
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
-  - type: IngestionBlocker
+#  - type: EyeProtection
+  - type: IngestionBlocker # Goobstation
     blockSmokeIngestion: true
   - type: Tag  # Goobstation - For survial boxes
     tags:
@@ -95,7 +85,7 @@
         Heat: 0.80
 
 - type: entity
-  parent: [ClothingMaskGasAtmos, BaseCommandContraband]
+  parent: ClothingMaskGasAtmos
   id: ClothingMaskGasCaptain
   name: captain's gas mask
   description: Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
@@ -119,9 +109,9 @@
     sprite: Clothing/Mask/gascaptaincombat.rsi
 
 - type: entity
-  parent: [ ClothingMaskGasAtmos, BaseCentcommContraband ]
+  parent: ClothingMaskGasAtmos
   id: ClothingMaskGasCentcom
-  name: CentComm gas mask
+  name: CentCom gas mask
   description: Oooh, gold and green. Fancy! This should help as you sit in your office.
   components:
   - type: Sprite
@@ -132,7 +122,7 @@
   - type: IngestionBlocker
 
 - type: entity
-  parent: [ClothingMaskGas, BaseCargoContraband]
+  parent: ClothingMaskGas
   id: ClothingMaskGasExplorer
   name: explorer gas mask
   description: A military-grade gas mask that can be connected to an air supply.
@@ -216,7 +206,7 @@
       Steel: 50
       Plastic: 100
   - type: StaticPrice
-    price: 30 # increases in price after decomposed into raw materials
+    price: 12.5 # increases in price after decomposed into raw materials
 
 - type: entity
   parent: ClothingMaskBase
@@ -265,24 +255,6 @@
   - type: Construction
     graph: BananaClownMask
     node: mask
-
-- type: entity
-  parent: [ClothingMaskClown, BaseRestrictedContraband]
-  id: ClothingMaskClownSecurity
-  name: security clown wig and mask
-  description: A debatably oxymoronic but protective mask and wig.
-  components:
-  - type: Sprite
-    sprite: Clothing/Mask/clown_security.rsi
-  - type: Clothing
-    sprite: Clothing/Mask/clown_security.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
 
 - type: entity
   parent: ClothingMaskBase
@@ -397,7 +369,7 @@
     accent: StutteringAccent
 
 - type: entity
-  parent: [ ClothingMaskGas, BaseRestrictedContraband ]
+  parent: ClothingMaskGasExplorer
   id: ClothingMaskGasSwat
   name: swat gas mask
   description: A elite issue Security gas mask.
@@ -414,16 +386,9 @@
     - Hair
     - Snout
     hideOnToggle: true
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.90
-        Piercing: 0.95
-        Heat: 0.95
 
 - type: entity
-  parent: [ ClothingMaskGas, BaseSecurityCargoContraband ]
+  parent: ClothingMaskGasExplorer
   id: ClothingMaskGasMerc
   name: mercenary gas mask
   description: Slightly outdated, but reliable military-style gas mask.
@@ -432,16 +397,9 @@
     sprite: Clothing/Mask/merc.rsi
   - type: Clothing
     sprite: Clothing/Mask/merc.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.90
-        Piercing: 0.95
-        Heat: 0.95
 
 - type: entity
-  parent: [ ClothingMaskGas, BaseCentcommContraband ]
+  parent: ClothingMaskGasSyndicate
   id: ClothingMaskGasERT
   name: ert gas mask
   description: The gas mask of the elite squad of the ERT.
@@ -458,16 +416,7 @@
     - Hair
     - Snout
     hideOnToggle: true
-  - type: FlashImmunity
-  - type: EyeProtection
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
-  - type: IngestionBlocker
+  - type: IngestionBlocker # Goobstation
     blockSmokeIngestion: true
 
 - type: entity
@@ -501,7 +450,7 @@
   - type: BreathMask
   - type: Tag
     tags:
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
     - HamsterWearable
     - WhitelistChameleon
   - type: HideLayerClothing
@@ -638,7 +587,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
 
 - type: entity
   parent: ClothingMaskNeckGaiter
@@ -697,7 +646,7 @@
   parent: ClothingMaskMime
   id: ClothingMaskScaredMime
   name: scared mime mask
-  description: Looks like it would scream if it wasn't a mask.
+  description: Looks like it would scream if it wasn't a mask
   components:
   - type: Sprite
     sprite: Clothing/Mask/scaredmime.rsi
@@ -737,5 +686,5 @@
   - type: IdentityBlocker
   - type: Tag
     tags:
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
   - type: Unremoveable
