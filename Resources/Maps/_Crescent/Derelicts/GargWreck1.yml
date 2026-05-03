@@ -8046,28 +8046,6 @@ entities:
     - type: Transform
       pos: -13.5,-2.5
       parent: 1
-- proto: FleshbeastRandomSpawner
-  entities:
-  - uid: 1581
-    components:
-    - type: Transform
-      pos: 9.5,5.5
-      parent: 1
-  - uid: 1583
-    components:
-    - type: Transform
-      pos: 3.5,0.5
-      parent: 1
-  - uid: 1584
-    components:
-    - type: Transform
-      pos: -8.5,-0.5
-      parent: 1
-  - uid: 1585
-    components:
-    - type: Transform
-      pos: -2.5,1.5
-      parent: 1
 - proto: GasPassiveVent
   entities:
   - uid: 1207

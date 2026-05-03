@@ -199,7 +199,7 @@
   tier: 2
   cost: 5000
   recipeUnlocks:
-  - ClothingOuterHardsuitSyndieMedicCyberdawn
+  - ClothingOuterHardsuitCyberdawnTactical
 
 - type: technology
   id: CDTSaboteurcyborgs

@@ -3532,28 +3532,6 @@ entities:
     - type: Transform
       pos: 0.5,14.5
       parent: 1
-- proto: FleshbeastRandomSpawner
-  entities:
-  - uid: 765
-    components:
-    - type: Transform
-      pos: 1.5,-2.5
-      parent: 1
-  - uid: 767
-    components:
-    - type: Transform
-      pos: 2.5,3.5
-      parent: 1
-  - uid: 768
-    components:
-    - type: Transform
-      pos: 4.5,8.5
-      parent: 1
-  - uid: 903
-    components:
-    - type: Transform
-      pos: -2.5,9.5
-      parent: 1
 - proto: FoodBoxDonkpocketPizza
   entities:
   - uid: 559

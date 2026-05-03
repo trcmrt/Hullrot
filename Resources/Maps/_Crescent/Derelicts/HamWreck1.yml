@@ -11355,38 +11355,6 @@ entities:
     - type: Transform
       pos: -2.5,5.5
       parent: 1
-- proto: FleshbeastRandomSpawner
-  entities:
-  - uid: 1534
-    components:
-    - type: Transform
-      pos: 1.5,26.5
-      parent: 1
-  - uid: 1536
-    components:
-    - type: Transform
-      pos: -0.5,30.5
-      parent: 1
-  - uid: 1537
-    components:
-    - type: Transform
-      pos: -1.5,11.5
-      parent: 1
-  - uid: 1540
-    components:
-    - type: Transform
-      pos: 3.5,15.5
-      parent: 1
-  - uid: 1542
-    components:
-    - type: Transform
-      pos: -0.5,22.5
-      parent: 1
-  - uid: 1544
-    components:
-    - type: Transform
-      pos: -3.5,17.5
-      parent: 1
 - proto: FoodBoxDonkpocket
   entities:
   - uid: 1232

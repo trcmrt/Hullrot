@@ -6362,23 +6362,6 @@ entities:
     - type: Transform
       pos: 0.5,-5.5
       parent: 1
-- proto: FleshbeastRandomSpawner
-  entities:
-  - uid: 933
-    components:
-    - type: Transform
-      pos: 1.5,-18.5
-      parent: 1
-  - uid: 934
-    components:
-    - type: Transform
-      pos: 6.5,-10.5
-      parent: 1
-  - uid: 1117
-    components:
-    - type: Transform
-      pos: 2.5,-0.5
-      parent: 1
 - proto: FlippoEngravedLighter
   entities:
   - uid: 669

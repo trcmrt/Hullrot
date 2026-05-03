@@ -8258,28 +8258,6 @@ entities:
     - type: Transform
       pos: -0.5,-3.5
       parent: 1
-- proto: FleshbeastRandomSpawner
-  entities:
-  - uid: 1760
-    components:
-    - type: Transform
-      pos: -0.5,3.5
-      parent: 1
-  - uid: 1761
-    components:
-    - type: Transform
-      pos: -4.5,1.5
-      parent: 1
-  - uid: 1762
-    components:
-    - type: Transform
-      pos: 5.5,-3.5
-      parent: 1
-  - uid: 1763
-    components:
-    - type: Transform
-      pos: -3.5,-8.5
-      parent: 1
 - proto: FloorDrain
   entities:
   - uid: 1199

@@ -60,8 +60,8 @@
     HardsuitElectronics: 500
 
 - type: latheRecipe
-  id: ClothingOuterHardsuitSyndieMedicCyberdawn
-  result: ClothingOuterHardsuitSyndieMedic
+  id: ClothingOuterHardsuitCyberdawnTactical
+  result: ClothingOuterHardsuitCyberdawnTactical
   completetime: 1.5
   materials:
     HardsuitElectronics: 500

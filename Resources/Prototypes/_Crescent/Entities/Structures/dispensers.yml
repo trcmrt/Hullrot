@@ -110,14 +110,14 @@
   - type: Dispenser
     defaultItem: TradeDeedStub
     inventory:
-      TradeGoodScrap: TradeDeed2.5k
-      TradeGoodScrapersLootbox: TradeDeed2.5k
+      TradeGoodScrap: TradeDeed2500
+      TradeGoodScrapersLootbox: TradeDeed2500
       TradeGoodImperialScrap: TradeDeed6k
-      TradeGoodScop: TradeDeed2.5k
-      TradeGoodAntibiotics: TradeDeed2.5k
+      TradeGoodScop: TradeDeed2500
+      TradeGoodAntibiotics: TradeDeed2500
       TradeGoodWine: TradeDeed6k
-      TradeGoodAmmo: TradeDeed2.5k
-      TradeGoodGunparts: TradeDeed2.5k
+      TradeGoodAmmo: TradeDeed2500
+      TradeGoodGunparts: TradeDeed2500
       TradeGoodCybernetics: TradeDeed6k
       TradeGoodAlloys: TradeDeed10k
       TradeGoodPlasma: TradeDeed10k
@@ -155,14 +155,14 @@
   - type: Dispenser
     defaultItem: TradeDeedStub
     inventory:
-      TradeGoodScrap: TradeDeed2.5k
-      TradeGoodScrapersLootbox: TradeDeed2.5k
+      TradeGoodScrap: TradeDeed2500
+      TradeGoodScrapersLootbox: TradeDeed2500
       TradeGoodCommunardScrap: TradeDeed6k
-      TradeGoodScop: TradeDeed2.5k
-      TradeGoodAntibiotics: TradeDeed2.5k
+      TradeGoodScop: TradeDeed2500
+      TradeGoodAntibiotics: TradeDeed2500
       TradeGoodUnionVodka: TradeDeed6k
-      TradeGoodAmmo: TradeDeed2.5k
-      TradeGoodGunparts: TradeDeed2.5k
+      TradeGoodAmmo: TradeDeed2500
+      TradeGoodGunparts: TradeDeed2500
       TradeGoodUnionWeapon: TradeDeed6k
       TradeGoodAlloys: TradeDeed10k
       TradeGoodPlasma: TradeDeed10k
@@ -201,14 +201,14 @@
     defaultItem: TradeDeedStub
     inventory:
       TradeGoodScrap: TradeDeed6k
-      TradeGoodCommunardScrap: TradeDeed2.5k
-      TradeGoodImperialScrap: TradeDeed2.5k
+      TradeGoodCommunardScrap: TradeDeed2500
+      TradeGoodImperialScrap: TradeDeed2500
       TradeGoodScop: TradeDeed6k
-      TradeGoodUnionVodka: TradeDeed2.5k
-      TradeGoodWine: TradeDeed2.5k
+      TradeGoodUnionVodka: TradeDeed2500
+      TradeGoodWine: TradeDeed2500
       TradeGoodAmmo: TradeDeed6k
-      TradeGoodUnionWeapon: TradeDeed2.5k
-      TradeGoodCybernetics: TradeDeed2.5k
+      TradeGoodUnionWeapon: TradeDeed2500
+      TradeGoodCybernetics: TradeDeed2500
       TradeGoodAlloys: TradeDeed15k
       TradeGoodUnionBallistic: TradeDeed10k
       TradeGoodImperialArmor: TradeDeed10k
@@ -244,14 +244,14 @@
     defaultItem: TradeDeedStub
     inventory:
       TradeGoodScrapersLootbox: TradeDeed6k
-      TradeGoodCommunardScrap: TradeDeed2.5k
-      TradeGoodImperialScrap: TradeDeed2.5k
+      TradeGoodCommunardScrap: TradeDeed2500
+      TradeGoodImperialScrap: TradeDeed2500
       TradeGoodAntibiotics: TradeDeed6k
-      TradeGoodUnionVodka: TradeDeed2.5k
-      TradeGoodWine: TradeDeed2.5k
+      TradeGoodUnionVodka: TradeDeed2500
+      TradeGoodWine: TradeDeed2500
       TradeGoodGunparts: TradeDeed6k
-      TradeGoodUnionWeapon: TradeDeed2.5k
-      TradeGoodCybernetics: TradeDeed2.5k
+      TradeGoodUnionWeapon: TradeDeed2500
+      TradeGoodCybernetics: TradeDeed2500
       TradeGoodPlasma: TradeDeed15k
       TradeGoodUnionBallistic: TradeDeed10k
       TradeGoodImperialArmor: TradeDeed10k

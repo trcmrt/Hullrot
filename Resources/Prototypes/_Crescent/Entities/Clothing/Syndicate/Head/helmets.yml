@@ -36,7 +36,7 @@
 ## hardsuit helmets
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetSyndieDonator
   categories: [ HideSpawnMenu ]
   name: combat technician's hardsuit helmet
@@ -65,7 +65,7 @@
         Caustic: 0.95
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitRamzi
   categories: [ HideSpawnMenu ]
   name: operative's combat hardsuit helmet
@@ -94,7 +94,7 @@
         Caustic: 0.95
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndicateBattlegroup
   categories: [ HideSpawnMenu ]
   name: frontliner's combat hardsuit helmet
@@ -122,7 +122,7 @@
         Caustic: 0.95
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCybersunSuit
   categories: [ HideSpawnMenu ]
   name: cybersun hardsuit helmet
@@ -148,7 +148,42 @@
         Heat: 0.9
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  parent: [ClothingHeadHardsuitWithLightBase , ShowMedicalIcons ] # Crescent edit
+  id: ClothingHeadHelmetHardsuitCyberdawnTactical
+  name: CSA-51m helmet
+  description: An armored helmet deployed over a Zhongyao tacsuit. features optic integrations for nearly every medical hud on the market.
+    Designed to enable the survival of combat medics in the most dangerous of environments.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Impstation/Clothing/Head/Hardsuits/syndicate_agent.rsi
+  - type: Clothing
+    sprite: _Impstation/Clothing/Head/Hardsuits/syndicate_agent.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: off-equipped-HELMET-glow
+        shader: unshaded
+  - type: PointLight
+    color: green
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: HideLayerClothing
+    slots:
+    - Snout
+    - Hair
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: FlashSoundSuppression # Goobstation
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitTraumasec
   categories: [ HideSpawnMenu ]
   name: interdyne traumasec hardsuit helmet
@@ -176,7 +211,7 @@
         Caustic: 0.9
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCoordinator
   categories: [ HideSpawnMenu ]
   name: interdyne coordinator hardsuit helmet

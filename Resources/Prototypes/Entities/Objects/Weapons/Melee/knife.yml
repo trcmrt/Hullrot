@@ -122,11 +122,11 @@
   - type: MeleeWeapon
     wideAnimationRotation: -135
     attackRate: 1
-    range: 0.5
+    range: 0.9
     angle: 0.1
     damage:
       types:
-        Piercing: 60
+        Piercing: 32
     heavyDamageBaseModifier: 1
     heavyStaminaCost: 8
     clickPartDamageMultiplier: 1

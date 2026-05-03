@@ -5658,28 +5658,6 @@ entities:
     - type: Transform
       pos: -6.5,-7.5
       parent: 1
-- proto: FleshbeastRandomSpawner
-  entities:
-  - uid: 1090
-    components:
-    - type: Transform
-      pos: -4.5,-2.5
-      parent: 1
-  - uid: 1091
-    components:
-    - type: Transform
-      pos: 0.5,5.5
-      parent: 1
-  - uid: 1092
-    components:
-    - type: Transform
-      pos: 0.5,-5.5
-      parent: 1
-  - uid: 1093
-    components:
-    - type: Transform
-      pos: 4.5,-3.5
-      parent: 1
 - proto: GalineCanister1
   entities:
   - uid: 476

@@ -22,8 +22,10 @@
   - type: Sprite
     state: mecha_clamp
   - type: MechGrabber
-    grabDelay: 0.2
+    grabSound: /Audio/Machines/airlock_emergencyon.ogg
+    grabDelay: 0
     maxContents: 5
+    grabEnergyDelta: -20
   - type: UIFragment
     ui: !type:MechGrabberUi
   - type: ContainerContainer
@@ -34,14 +36,15 @@
   id: MechEquipmentGrabberSmall
   parent: BaseMechEquipment
   name: small hydraulic clamp
-  description: Gives the mech the ability to grab things and drag them around.
+  description: Gives the mech the ability to grab things and drag them around. Stresses a mech's power supply half as much over a standard model in exchange for lowered capacity.
   components:
   - type: Sprite
     state: mecha_clamp_small
   - type: MechGrabber
-    maxContents: 4
-    grabDelay: 0.2
-    grabEnergyDelta: -20
+    grabSound: /Audio/Machines/airlock_emergencyon.ogg
+    maxContents: 3
+    grabDelay: 0
+    grabEnergyDelta: -10
   - type: UIFragment
     ui: !type:MechGrabberUi
   - type: ContainerContainer

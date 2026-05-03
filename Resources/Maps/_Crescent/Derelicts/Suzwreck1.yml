@@ -12896,28 +12896,6 @@ entities:
     - type: Transform
       pos: 2.5,-16.5
       parent: 1
-- proto: FleshbeastRandomSpawner
-  entities:
-  - uid: 1850
-    components:
-    - type: Transform
-      pos: 9.5,-5.5
-      parent: 1
-  - uid: 1851
-    components:
-    - type: Transform
-      pos: 12.5,-11.5
-      parent: 1
-  - uid: 1852
-    components:
-    - type: Transform
-      pos: 1.5,-12.5
-      parent: 1
-  - uid: 1853
-    components:
-    - type: Transform
-      pos: 2.5,-0.5
-      parent: 1
 - proto: FlippoEngravedLighter
   entities:
   - uid: 1293

@@ -4318,18 +4318,6 @@ entities:
     - type: Transform
       pos: 2.5,2.5
       parent: 1
-- proto: FleshbeastRandomSpawner
-  entities:
-  - uid: 853
-    components:
-    - type: Transform
-      pos: 6.5,-5.5
-      parent: 1
-  - uid: 854
-    components:
-    - type: Transform
-      pos: 7.5,-1.5
-      parent: 1
 - proto: FloorDrain
   entities:
   - uid: 567

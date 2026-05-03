@@ -22966,7 +22966,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingOuterHardsuitSyndieMedic
+- proto: ClothingOuterHardsuitCyberdawnTactical
   entities:
   - uid: 33
     components:

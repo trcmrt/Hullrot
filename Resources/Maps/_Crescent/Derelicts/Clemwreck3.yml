@@ -4375,28 +4375,6 @@ entities:
     - type: Transform
       pos: 9.5,-10.5
       parent: 1
-- proto: FleshbeastRandomSpawner
-  entities:
-  - uid: 878
-    components:
-    - type: Transform
-      pos: -4.5,-12.5
-      parent: 1
-  - uid: 879
-    components:
-    - type: Transform
-      pos: 1.5,-5.5
-      parent: 1
-  - uid: 880
-    components:
-    - type: Transform
-      pos: 6.5,-13.5
-      parent: 1
-  - uid: 1060
-    components:
-    - type: Transform
-      pos: 6.5,-4.5
-      parent: 1
 - proto: FoodSnackMREBrownie
   entities:
   - uid: 639
