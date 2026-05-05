@@ -4,6 +4,10 @@
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: Projectile
     damage:
       types:
@@ -16,10 +20,29 @@
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: Projectile
     damage:
       types:
         Blunt: 2
+
+- type: entity
+  id: BulletCaselessRifleRubber
+  name: bullet (9x39mm caseless rubber)
+  parent: BaseBulletRubber
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
 
 - type: entity
   id: BulletCaselessRifleIncendiary
@@ -27,6 +50,10 @@
   parent: BaseBulletIncendiary
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: Projectile
     damage:
       types:
@@ -39,6 +66,10 @@
   parent: BaseBulletUranium
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: Projectile
     damage:
       types:
@@ -51,6 +82,10 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: Projectile
     damage:
       types:

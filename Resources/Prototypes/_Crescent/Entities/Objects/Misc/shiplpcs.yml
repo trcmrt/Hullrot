@@ -875,6 +875,46 @@
     recipes:
       - FujinLPC
 
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherOnryo
+  name: CSEC 'Onryo' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a CorpSec Onryo-class corvette pattern. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 2500
+  - type: ShipVoucher
+    ship: onryo
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - OnryoLPC
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherMako
+  name: CSEC 'Mako' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a CorpSec Mako-class mining shuttle pattern. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 2500
+  - type: ShipVoucher
+    ship: mako
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - MakoLPC
+
 #ncsp
 
 - type: entity

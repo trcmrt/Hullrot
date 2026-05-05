@@ -28,6 +28,24 @@
       collection: ShellBulletBounce
 
 - type: entity
+  id: PelletShotgun18g
+  name: pellet (18.5g buckshot)
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    state: buckshot
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 14 # 14 x 10 = 140
+
+- type: entity
   id: PelletShotgunSpread18g
   categories: [ HideSpawnMenu ]
   parent: PelletShotgun18g
@@ -85,10 +103,6 @@
   id: AmmoProviderShotgunShell18g
   abstract: true
   components:
-    - type: Sprite
-      sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
-    - type: Item
-      sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
     - type: BallisticAmmoProvider
       mayTransfer: true
       whitelist:
@@ -106,5 +120,5 @@
       proto: ShellShotgun18g
     - type: Sprite
       layers:
-        - state: base
-        - state: lethal
+        - state: boxwide
+        - state: shelllethal

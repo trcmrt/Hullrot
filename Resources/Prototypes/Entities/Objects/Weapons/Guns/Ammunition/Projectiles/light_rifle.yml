@@ -4,6 +4,10 @@
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: Projectile
     damage:
       types:
@@ -17,10 +21,30 @@
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: Projectile
     damage:
       types:
         Blunt: 2
+
+- type: entity
+  id: BulletLightRifleRubber
+  name: bullet (5.56x45mm Imperial rubber)
+  parent: BaseBulletRubber
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+    stoppingPower: 4
 
 - type: entity
   id: BulletLightRifleIncendiary
@@ -28,6 +52,10 @@
   name: bullet (5.56x45mm Imperial dragon's breath)
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: Projectile
     damage:
       types:
@@ -40,6 +68,10 @@
   name: bullet (5.56x45mm Imperial black-tip)
   categories: [ HideSpawnMenu ]
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: Projectile
     damage:
       types:
@@ -53,6 +85,10 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: Projectile
     damage:
       types:

@@ -28,7 +28,7 @@
       collection: ShellBulletBounce
 
 - type: entity
-  parent: AmmoProviderShotgunShell
+  parent: BaseAmmoProvider
   id: AmmoProviderShotgunShell4g
   abstract: true
   components:
@@ -56,6 +56,26 @@
     state: "beanbag"
 
 - type: entity
+  id: PelletShotgunBeanbag4g
+  name: beanbag (4g)
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    state: buckshot
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 15
+  - type: StaminaDamageOnCollide
+    damage: 55
+
+- type: entity
   name: 4g beanbag box
   parent: AmmoProviderShotgunShell4g
   id: BoxBeanbag4g
@@ -65,8 +85,8 @@
       proto: ShellShotgun4gBeanbag
     - type: Sprite
       layers:
-        - state: base
-        - state: beanbag
+        - state: boxwide
+        - state: shellbeanbag
 
 # --------------------- SLUG --------------------------
 
@@ -85,6 +105,24 @@
     state: "slug"
 
 - type: entity
+  id: PelletShotgunSlug4g
+  name: pellet (4g slug)
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    state: slug
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 100
+
+- type: entity
   name: 4g slug box
   parent: AmmoProviderShotgunShell4g
   id: BoxShotgunSlug4g
@@ -94,8 +132,8 @@
       proto: ShellShotgun4gSlug
     - type: Sprite
       layers:
-        - state: base
-        - state: slug
+        - state: boxwide
+        - state: shellslug
 
 # --------------------- BUCKSHOT --------------------------
 
@@ -110,6 +148,24 @@
         map: [ "enum.AmmoVisualLayers.Base" ]
   - type: CartridgeAmmo
     proto: PelletShotgunSpread4g
+
+- type: entity
+  id: PelletShotgun4g
+  name: pellet (4g buckshot)
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    state: buckshot
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 24 # 24 x 10 = 240
 
 - type: entity
   id: PelletShotgunSpread4g
@@ -131,8 +187,8 @@
       proto: ShellShotgun4gBuckshot
     - type: Sprite
       layers:
-        - state: base
-        - state: lethal
+        - state: boxwide
+        - state: shelllethal
 
 # --------------------- FLASH --------------------------
 
@@ -143,7 +199,7 @@
   components:
   - type: Sprite
     layers:
-      - state: flare
+      - state: lumen
         map: [ "enum.AmmoVisualLayers.Base" ]
   - type: CartridgeAmmo
     proto: PelletShotgunFlashSpread4g
@@ -156,6 +212,10 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: slug
@@ -190,8 +250,8 @@
       proto: ShellShotgun4gFlash
     - type: Sprite
       layers:
-        - state: base
-        - state: uranium
+        - state: boxwide
+        - state: shelluranium
 
 # --------------------- MARKER FLARE --------------------------
 
@@ -201,6 +261,10 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
+  - type: ProjectilePhasePrevent
+    mask:
+    - Impassable
+    - BulletImpassable
   - type: ExpendableHeatTracked
     toggleDelay: 40
   - type: CanBeHeatTracked
@@ -245,7 +309,7 @@
   components:
   - type: Sprite
     layers:
-      - state: flare
+      - state: lumen
         map: [ "enum.AmmoVisualLayers.Base" ]
   - type: CartridgeAmmo
     proto: PelletShotgunFlashSpread4g
@@ -262,5 +326,5 @@
       proto: ShellShotgun4gMarkerFlare
     - type: Sprite
       layers:
-        - state: base
-        - state: uranium
+        - state: boxwide
+        - state: shelluranium
