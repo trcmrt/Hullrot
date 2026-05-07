@@ -135,7 +135,7 @@
 #       inverted: true
 #       species:
 #         - Felinid
-#         - Tajaran
+#
 #   functions:
 #     - !type:TraitModifyStamina
 #       staminaModifier: -15
@@ -242,7 +242,6 @@
       inverted: true
       species:
         - Felinid
-        - Tajaran
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -266,7 +265,6 @@
       inverted: true
       species:
         - Felinid
-        - Tajaran
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -318,7 +316,6 @@
       inverted: true
       species:
         - Felinid # Felinids/Tajaran already have this feature by default.
-        - Tajaran
     - !type:CharacterHeightRequirement
       max: 150
     - !type:CharacterWidthRequirement
@@ -393,7 +390,7 @@
 #       inverted: true
 #       species:
 #         - Felinid # Felinids already have cat claws.
-#         - Tajaran # Tajaran also have cat claws
+# # Tajaran also have cat claws
 #         - Reptilian # Reptilians also have cat claws.
 #         - Voidborn # Voidborns also have claws.
 #         - Xelthia # Claws don't make sense on tentacle arms

@@ -244,21 +244,6 @@
     StypticCrystalCatalyst: 2
 
 - type: reaction
-  id: StypticCrystalCreation
-  quantized: true
-  conserveEnergy: false
-  reactants:
-    StypticCrystalCatalyst:
-      amount: 5
-    Blood:
-      amount: 10
-    Sodium:
-      amount: 10
-  effects:
-    - !type:CreateEntityReactionEffect
-      entity: ShardCrystalStyptic
-
-- type: reaction
   id: SalicylicAcid
   minTemp: 370
   reactants:
