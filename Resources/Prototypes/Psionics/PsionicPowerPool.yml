@@ -6,12 +6,12 @@
     DispelPower: 0.5
     TelegnosisPower: 0.5
     PsionicRegenerationPower: 0.75
-    MassSleepPower: 0.5
+    # MassSleepPower: 0.5
     PsionicInvisibilityPower: 0.35
     MindSwapPower: 0.1
     TelepathyPower: 1 # Leads to Xenoglossy and Psychognomy
     HealingWordPower: 0.4 # Leads to revivify
-    ShadeskipPower: 0.4 # Leads to darkswap
+    # ShadeskipPower: 0.4 # Leads to darkswap
     TelekineticPulsePower: 0.35
     PyrokineticFlare: 0.6 # Leads to summon imp and pyrokenisis
     NoosphericZapPower: 0.35
@@ -23,8 +23,8 @@
     DispelPower: 1
     TelegnosisPower: 1
     PsionicRegenerationPower: 1
-    MassSleepPower: 0.25
-    PsionicInvisibilityPower: 0.25
+    # MassSleepPower: 0.25
+    # PsionicInvisibilityPower: 0.25
     MindSwapPower: 0.1
 
 - type: weightedRandom
@@ -32,7 +32,7 @@
   weights:
     AnoigoPower: 0.25
     HealingWordPower: 0.5
-    ShadeskipPower: 0.5
+    # ShadeskipPower: 0.5
     TelekineticPulsePower: 0.75
     PyrokineticFlare: 0.5
     NoosphericZapPower: 0.25

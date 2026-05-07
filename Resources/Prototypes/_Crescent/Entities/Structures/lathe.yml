@@ -310,6 +310,8 @@
       - MagazinePistol
       - MagazinePistol6mm
       - MagazinePistolSubMachineGunTopMounted
+      - MagazineCaselessRifle
+      - MagazineCaselessRifleShort
       - BoomboxCraft
       - Wirecutter
       - Igniter
@@ -588,7 +590,7 @@
       - DoormagCyberdawn
       - AdvancedMechatronics1Craft
       - AdvancedElectronics1Craft
-      - ClothingOuterHardsuitSyndieMedicCyberdawn
+      - ClothingOuterHardsuitCyberdawnTactical
       - ClothingOuterHardsuitCybersunStealthCyberdawn
       - MagazinePistolSpecialMindbreakerCyberdawn
       - WeaponPistolPsiBreakerCyberdawn
@@ -860,7 +862,10 @@
       - GargutLPC
       - SternLPC
       - BogatyrLPC
-      - SunderLPC
+      - ListerLPC
+      - PsoglavLPC
+      - ZorniyLPC
+      - StraznikLPC
       - WeaponSubMachineGunBloodhound
       - WeaponSubMachineGunMilitant
       - WeaponRifleNCWLBatanya
@@ -987,6 +992,8 @@
       - MusinyaneLPC
       - FleaLPC
       - FujinLPC
+      - MakoLPC
+      - OnryoLPC
       - MetempsychoticMachineCircuitboard
       - HardlinerFlatpack
       - PowerCageHardliner

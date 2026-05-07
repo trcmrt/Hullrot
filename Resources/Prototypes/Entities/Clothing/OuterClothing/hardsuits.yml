@@ -691,7 +691,7 @@
   - type: ReverseEngineering
     difficulty: 3
     recipes:
-      - ClothingOuterHardsuitSyndieMedicCyberdawn
+      - ClothingOuterHardsuitCyberdawnTactical
       - ClothingOuterHardsuitCybersun
 
 #Syndicate Elite Hardsuit

@@ -74,8 +74,8 @@
       types:
         Blunt: 20
   - type: MovementSpeedModifier
-    baseWalkSpeed: 1
-    baseSprintSpeed: 2
+    baseWalkSpeed: 2
+    baseSprintSpeed: 4
   - type: Damageable
     damageModifierSet: MediumArmorNT
   - type: StaticPrice
@@ -85,7 +85,7 @@
     - DoorBumpOpener
     - FootstepSound
     - RipleyMkII
-    
+
 - type: entity
   id: MechRipley2Battery
   parent: MechRipley2
@@ -133,7 +133,7 @@
         Blunt: 26
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.5
-    baseSprintSpeed: 4.5
+    baseSprintSpeed: 5
   - type: CanMoveInAir
   - type: MovementAlwaysTouching
   - type: StaticPrice
@@ -204,7 +204,7 @@
         Blunt: 25
         Structural: 180
   - type: CanMoveInAir
-  - type: MovementAlwaysTouching        
+  - type: MovementAlwaysTouching
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
     baseSprintSpeed: 2.6
