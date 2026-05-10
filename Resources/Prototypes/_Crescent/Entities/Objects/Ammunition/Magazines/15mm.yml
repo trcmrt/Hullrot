@@ -32,16 +32,13 @@
   - type: EmitSoundOnCollide
     sound:
       collection: HeavyBulletBounce
-<<<<<<< HEAD:Resources/Prototypes/_Crescent/Entities/Objects/Ammunition/Magazines/15mm.yml
-=======
 
 - type: entity
   id: BulletRailgun15mm
   name: bullet (15mm PTMD)
-  parent: BaseBullet
+  parent: BaseBulletPhasePrevented
   categories: [ HideSpawnMenu ]
   components:
-  - type: ProjectilePhasePrevent #it be almost a shipgun speed wise
   - type: ShipWeaponProjectile
   - type: ProjectileIFF
     visualType: Circle
@@ -53,4 +50,3 @@
         Structural: 400
   - type: StaminaDamageOnCollide
     damage: 75
->>>>>>> upstream/master:Resources/Prototypes/_Crescent/Entities/Objects/Ammunition/15mm.yml

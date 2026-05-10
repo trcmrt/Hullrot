@@ -573,7 +573,7 @@
       slots:
         gun_magazine:
           name: Magazine
-          #startingItem: MagazineNeedler - - on being rebuilt from destruction this gives it free ammo
+          startingItem: MagazineNeedler #on being rebuilt from destruction this gives it free ammo
           insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
           priority: 2
