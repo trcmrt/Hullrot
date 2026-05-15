@@ -1,6 +1,6 @@
 - type: entity
   id: BaseHardpoint
-  parent: BaseMachinePowered
+  parent: BaseMachineUnwrenchable
   name: Hardpoint
   abstract: true
   components:
@@ -22,8 +22,6 @@
           collection: MetalGlassBreak
   - type: Repairable
     doAfterDelay: 8
-  - type: Anchorable
-    delay: 10
   - type: PointLight
     enabled: false
     castShadows: false

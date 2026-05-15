@@ -14,7 +14,7 @@
 
 - type: entity
   id: ShieldEmitter
-  parent: BaseMachinePowered
+  parent: BaseMachineUnwrenchable
   name: NT-910 'Goliath' deflector emitter
   description: A complicated array of machinery - guzzles power and maintains a bubble deflector shield around the mother vessel. Overheats with too much use.
   components:
