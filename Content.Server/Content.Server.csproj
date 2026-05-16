@@ -65,12 +65,9 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   <ItemGroup>
     <Folder Include="Objectives\Interfaces\" />
     <Folder Include="_Crescent\Chat\" />
-<<<<<<< HEAD
     <Folder Include="_Goobstation\Administration\Systems\" />
     <Folder Include="_EE\Shadowling\Systems\Objectives\" />
-=======
     <ProjectReference Include="..\Content.Goobstation.Shared\Content.Goobstation.Shared.csproj" />
->>>>>>> upstream/master
   </ItemGroup>
   <Import Project="..\RobustToolbox\MSBuild\Robust.Properties.targets" />
 </Project>
