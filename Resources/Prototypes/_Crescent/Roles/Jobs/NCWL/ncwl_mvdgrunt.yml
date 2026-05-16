@@ -85,7 +85,7 @@
     shoes: ClothingShoesBootsMVD
     jumpsuit: ClothingUniformJumpsuitMVD
     id: NCWLMVDGruntPDA
-    outerClothing: ClothingOuterArmorMVDCoat
+    outerClothing: ClothingOuterArmorMVDJacket
     pocket1: WeaponPistolComrade
     back: ClothingBackpackNCWL
     gloves: ClothingHandsGlovesMVD

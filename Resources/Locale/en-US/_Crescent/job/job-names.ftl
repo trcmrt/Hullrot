@@ -5,9 +5,10 @@ job-name-utility-ipc = NT Engineer IPC
 
 # ncwl
 
-job-name-ncwl-faction-leader = Flagman
+job-name-ncwl-faction-leader = General Major
 job-name-ncwl-kommissar = Kommissar
-job-name-ncwl-mvd-grunt = Starshina
+job-name-ncwl-mvd-officer = Kommissar Cadet
+job-name-ncwl-mvd-grunt = Kommissar Aide
 job-name-ncwl-fleetkapitan = Unionkapitan
 job-name-ncwl-partisan = Partisan
 job-name-ncwl-industry-taskmaster = Sindikat Overseer

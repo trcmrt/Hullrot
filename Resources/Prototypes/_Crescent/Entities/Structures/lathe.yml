@@ -639,6 +639,13 @@
       - ClothingOuterHardsuitSyndieDonator
       - HerculesFlatpack #Actual stuff
       - EinsteinFlatpack
+      - FixedHardpointFlatpack
+      - LargeBallisticHardpointFlatpack
+      - MediumBallisticHardpointFlatpack
+      - SmallBallisticHardpointFlatpack
+      - LargeMissileHardpointFlatpack
+      - MediumMissileHardpointFlatpack
+      - SmallMissileHardpointFlatpack
       - WeaponTurretSmallMachinegunFlatpack
       - WeaponTurretMediumMachinegunFlatpack
       - WeaponTurretSmallArtilleryFlatpack
@@ -1707,11 +1714,6 @@
     - ShipHull
     - ShipElectronics
     - ShipEngine
-    - HardpointSmallBallisticTurretCraft
-    - HardpointSmallEnergyTurretCraft
-    - HardpointSmallMissileTurretCraft
-    - HardpointSmallFixedCraft
-    - HardpointMediumFixedCraft
   - type: Anchorable
     flags:
     - Anchorable
