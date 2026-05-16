@@ -200,7 +200,7 @@
 - type: entity
   parent: BaseTurretShipgun
   id: WeaponTurretSmallMachinegunSAW
-  suffix: Machinegun, Small Ballistics
+  suffix: Machinegun, Medium Ballistics
   name: SAW 20mm 'Cleanser' Rotary Cannon
   description: A complete retrofit of common 20mm gatling systems, Comes with a heavy duty mount and triple the fire rate. Shipbreakers rejoice for 12 seconds before it needs to be reloaded. Due to its increased size it requires a medium hardpoint.
   components:
