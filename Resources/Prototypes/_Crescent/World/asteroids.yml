@@ -18,19 +18,25 @@
             prob: 0.001
             orGroup: rock
           - id: WallRock
-            prob: 0.5
+            prob: 0.2
             orGroup: rock
           - id: WallRockCoal
             prob: 0.01
             orGroup: rock
           - id: WallRockTin
-            prob: 0.02
+            prob: 0.2
             orGroup: rock
           - id: WallRockQuartz
-            prob: 0.02
+            prob: 0.04
             orGroup: rock
           - id: WallRockCopper
-            prob: 0.02
+            prob: 0.06
+            orGroup: rock
+          - id: AsteroidRockAluminium
+            prob: 0.06
+            orGroup: rock
+          - id: AsteroidRockLead
+            prob: 0.06
             orGroup: rock
     - type: IFF
       flags: HideLabel
@@ -102,20 +108,20 @@
           - id: WallRockBasalt
             prob: 0.5
             orGroup: rock
-          - id: WallRockBasaltUranium
-            prob: 0.05
+          - id: WallRockBasaltTungsten
+            prob: 0.005
             orGroup: rock
           - id: WallRockBasaltSilver
             prob: 0.05
             orGroup: rock
           - id: WallRockBasaltGold
-            prob: 0.05
+            prob: 0.02
+            orGroup: rock
+          - id: WallRockBasaltTin
+            prob: 0.1
             orGroup: rock
           - id: WallRockBasaltArtifactFragment
             prob: 0.0002
-            orGroup: rock
-          - id: WallRockBasaltCopper
-            prob: 0.07
             orGroup: rock
     - type: IFF
       flags: HideLabel
@@ -174,19 +180,19 @@
             prob: 0.5
             orGroup: rock
           - id: WallRockChromitePlasma
-            prob: 0.02
+            prob: 0.06
+            orGroup: rock
+          - id: WallRockChromiteTungsten
+            prob: 0.06
+            orGroup: rock
+          - id: WallRockChromiteGold
+            prob: 0.005
+            orGroup: rock
+          - id: WallRockChromiteUranium
+            prob: 0.04
             orGroup: rock
           - id: WallRockChromiteArtifactFragment
             prob: 0.005
-            orGroup: rock
-          - id: WallRockChromiteTungsten
-            prob: 0.02
-            orGroup: rock
-          - id: WallRockChromiteCoal
-            prob: 0.03
-            orGroup: rock
-          - id: WallRockChromiteTin
-            prob: 0.05
             orGroup: rock
     - type: IFF
       flags: HideLabel

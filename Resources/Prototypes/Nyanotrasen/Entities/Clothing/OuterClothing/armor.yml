@@ -17,31 +17,6 @@
 
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterArmorKendoBogu
-  name: cyberdawn bogu
-  description: A set of armor traditionally used in Kendo, repurposed for ballistic resistance. Bears the Cyberdawn colors.
-  components:
-  - type: Sprite
-    sprite: Nyanotrasen/Clothing/OuterClothing/Armor/bogu.rsi
-  - type: Clothing
-    sprite: Nyanotrasen/Clothing/OuterClothing/Armor/bogu.rsi
-  - type: DegradeableArmor
-    armorMaxHealth: 1000
-    armorType: Metallic
-    armorRepair: SteelPlate
-    initialModifiers:
-      flatReductions:
-        Blunt: 25
-        Slash: 25
-        Piercing: 45
-        Heat: 15
-        Caustic: 25
-  - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
-    
-- type: entity
-  parent: ClothingOuterBase
   id: ClothingOuterArmorTouseiGusoku
   name: tousei-gusoku
   description: A modern replica of a Ni-mai-do Gusoku armor set. 

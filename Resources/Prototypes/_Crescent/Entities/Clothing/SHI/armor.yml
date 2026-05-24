@@ -233,8 +233,8 @@
         Caustic: 0.6
         Radiation: 0.6
   - type: ClothingSpeedModifier
-    walkModifier: 0.7
-    sprintModifier: 0.6
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: Reflect
     spread: 270

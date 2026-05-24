@@ -34,19 +34,19 @@
   - CartridgeAtropineInterdyne
   - SyringeCase
 
-- type: technology
-  id: InterdyneArmor
-  name: research-technology-interdyne-armor
-  icon:
-    sprite: _Crescent/Clothing/Syndicate/Head/traumahelmet.rsi
-    state: icon
-  discipline: Interdyne
-  tier: 1
-  cost: 5000
-  recipeUnlocks:
-  - ClothingHeadHelmetSyndicateBasicInterdyne
-  - ClothingOuterArmorSyndicateArmorvestInterdyne
-  - ClothingOuterHardsuitTraumasec
+# - type: technology
+#   id: InterdyneArmor
+#   name: research-technology-interdyne-armor
+#   icon:
+#     sprite: _Crescent/Clothing/Syndicate/Head/traumahelmet.rsi
+#     state: icon
+#   discipline: Interdyne
+#   tier: 1
+#   cost: 5000
+#   recipeUnlocks:
+#   - ClothingHeadHelmetSyndicateBasicInterdyne
+#   - ClothingOuterArmorSyndicateArmorvestInterdyne
+#   - ClothingOuterHardsuitTraumasec
 
 - type: technology
   id: InterdyneOptics

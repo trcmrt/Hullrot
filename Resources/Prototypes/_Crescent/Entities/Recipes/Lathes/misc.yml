@@ -24,3 +24,11 @@
     Copper: 250
     Plastic: 500
     Glass: 500
+
+- type: latheRecipe
+  id: MothroachCubeBiochemical
+  result: MothroachCube
+  completetime: 3
+  materials:
+    Biomass: 50
+    Plasma: 100

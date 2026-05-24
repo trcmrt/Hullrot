@@ -427,7 +427,7 @@
     recipes:
       - ClothingOuterHardsuitNCWLMedi
       - ClothingOuterHardsuitNCWLEngi
-      - ClothingOuterHardsuitNCWLInfantry
+      # - ClothingOuterHardsuitNCWLInfantry
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -473,7 +473,7 @@
     recipes:
       - ClothingOuterHardsuitNCWLEngi
       - ClothingOuterHardsuitNCWLMedi
-      - ClothingOuterHardsuitNCWLInfantry
+      # - ClothingOuterHardsuitNCWLInfantry
 
 ## hardsuits
 
@@ -518,7 +518,7 @@
     faction: NCWL
   - type: ReverseEngineering # SectorCrescent
     recipes:
-      - ClothingOuterHardsuitNCWLInfantry
+      # - ClothingOuterHardsuitNCWLInfantry
       - ClothingOuterHardsuitNCWLEngi
       - ClothingOuterHardsuitNCWLMedi
 
@@ -566,7 +566,7 @@
     difficulty: 2
     recipes:
       - ClothingOuterHardsuitNCWLPetya
-      - ClothingOuterHardsuitNCWLInfantry
+      # - ClothingOuterHardsuitNCWLInfantry
       - ClothingOuterHardsuitNCWLEngi
       - ClothingOuterHardsuitNCWLMedi
 
@@ -601,8 +601,8 @@
         Caustic: 0.6
         Radiation: 0.6
   - type: ClothingSpeedModifier
-    walkModifier: 0.6
-    sprintModifier: 0.6
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: Reflect
     spread: 270
@@ -622,7 +622,7 @@
     recipes:
       - ClothingOuterHardsuitNCWLJuggernaut
       - ClothingOuterHardsuitNCWLPetya
-      - ClothingOuterHardsuitNCWLInfantry
+      # - ClothingOuterHardsuitNCWLInfantry
 
 ##softsuits
 

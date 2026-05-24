@@ -1,0 +1,103 @@
+#DSM
+- type: latheRecipe
+  id: WeaponSubMachineGunBeetle
+  result: WeaponSubMachineGunBeetle
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 900
+    Plastic: 300
+    BasicMechatronics: 700
+
+- type: latheRecipe
+  id: WeaponSubMachineGunC20rImperial
+  result: WeaponSubMachineGunC20rHullrot
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1200
+    Plastic: 300
+    BallisticCycler: 400
+
+#NCWL
+- type: latheRecipe
+  id: WeaponSubMachineGunMilitant
+  result: WeaponSubMachineGunMilitant
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 900
+    Plastic: 300
+    BasicMechatronics: 700
+
+- type: latheRecipe
+  id: WeaponSubMachineGunBloodhound
+  result: WeaponSubMachineGunBloodhound
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1200
+    Plastic: 300
+    BallisticCycler: 400
+
+- type: latheRecipe
+  id: WeaponSubMachineGunNCWLWatchdog
+  result: WeaponSubMachineGunNCWLWatchdog
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1200
+    Plastic: 300
+    BallisticCycler: 400
+
+#CD
+- type: latheRecipe
+  id: WeaponSubMachineGunAtreidesCyberdawn
+  result: WeaponSubMachineGunAtreidesHullrot
+  completetime: 1.5
+  category: Weapons
+  materials:
+    Steel: 900
+    Plastic: 300
+    BasicMechatronics: 700
+
+- type: latheRecipe
+  id: WeaponSubMachineGunCorsairCyberdawn
+  result: WeaponSubMachineGunCorsair
+  completetime: 1.5
+  category: Weapons
+  materials:
+    Steel: 1200
+    Plastic: 300
+    BallisticCycler: 400
+
+#SHI
+- type: latheRecipe
+  id: WeaponSubMachineGunSabre
+  result: WeaponSubMachineGunSabre
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 900
+    Plastic: 300
+    BasicMechatronics: 700
+
+- type: latheRecipe
+  id: WeaponSubMachineGunMP49
+  result: WeaponSubMachineGunMP49
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 900
+    Plastic: 300
+    BasicMechatronics: 700
+
+- type: latheRecipe
+  id: WeaponSubMachineGunWt550Hullrot
+  result: WeaponSubMachineGunWt550Hullrot
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1200
+    Plastic: 300
+    BallisticCycler: 400

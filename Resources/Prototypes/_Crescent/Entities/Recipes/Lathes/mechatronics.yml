@@ -4,7 +4,7 @@
   completetime: 0.5
   materials:
     Steel: 200
-    Silver: 50
+    Aluminum: 100
 
 - type: latheRecipe
   id: PlastitaniumFibreAlloy1Mechatronics

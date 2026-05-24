@@ -17,3 +17,11 @@
 - type: latheCategory
   id: ArmorPlates
   name: lathe-category-armorplates
+
+- type: latheCategory
+  id: Hardsuits
+  name: lathe-category-hardsuits
+
+- type: latheCategory
+  id: LPCs
+  name: lathe-category-lpcs

@@ -1,0 +1,61 @@
+#DSM
+- type: latheRecipe
+  id: WeaponPlasmaRifleSeethe
+  result: WeaponDSMPlasmaRifle
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 2200
+    Plasma: 1200
+    Copper: 700
+    NanotrasenElectronics: 500
+    BasicMechatronics: 800
+    WeakLaserLocus: 4000
+
+- type: latheRecipe
+  id: WeaponLaserCannonImperial
+  result: WeaponLaserCannon
+  completetime: 2
+  category: Weapons
+  materials:
+    LaserLocus: 1000
+    Silver: 800
+    Steel: 1200
+    BasicElectronics: 1000
+
+- type: latheRecipe
+  id: WeaponEnergyRevolverImperial
+  result: WeaponEnergyRevolver
+  completetime: 2
+  category: Weapons
+  materials:
+    LaserLocus: 400
+    Silver: 500
+    Steel: 700
+    BasicElectronics: 400
+
+#CD
+- type: latheRecipe
+  id: WeaponSpecialKingpinCyberdawn
+  result: WeaponSpecialKingpin
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 3500
+    Plasteel: 2500
+    BasicMechatronics: 3000
+    Tungsten: 1500
+    BallisticCycler: 3000
+    TubeLoader: 1000
+
+#SHI
+- type: latheRecipe
+  id: WeaponLaserCarbineSHI
+  result: WeaponLaserCarbine
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1400
+    Silver: 700
+    BasicElectronics: 1000
+    LaserLocus: 500

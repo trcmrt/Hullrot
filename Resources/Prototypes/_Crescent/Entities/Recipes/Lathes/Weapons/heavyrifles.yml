@@ -1,0 +1,104 @@
+#DSM
+- type: latheRecipe
+  id: WeaponRifleHunter
+  result: WeaponRifleHunter
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 600
+    Plastic: 500
+    BallisticCycler: 500
+
+- type: latheRecipe
+  id: WeaponRifleDSMLegionnaire
+  result: WeaponRifleDSMLegionnaire
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1200
+    Silver: 400
+    BallisticCycler: 500
+
+#NCWL
+- type: latheRecipe
+  id: WeaponRifleNCWLRezerv
+  result: WeaponRifleNCWLRezerv
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1000
+    Plastic: 300
+    BasicMechatronics: 500
+
+- type: latheRecipe
+  id: WeaponRifleNCWLBatanya
+  result: WeaponRifleNCWLBatanya
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1200
+    Silver: 300
+    BallisticCycler: 500
+
+- type: latheRecipe
+  id: WeaponSniperNCWLNovomosin
+  result: WeaponSniperNCWLNovomosin
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 400
+    Plastic: 300
+    Silver: 200
+    BasicMechatronics: 600
+
+#CD
+- type: latheRecipe
+  id: WeaponRifleAkCyberdawn
+  result: WeaponRifleAk
+  category: Weapons
+  completetime: 1.5
+  materials:
+    Steel: 800
+    Plastic: 300
+    BasicMechatronics: 500
+
+- type: latheRecipe
+  id: WeaponRifleMayflower
+  result: WeaponRifleMayflower
+  completetime: 1.5
+  category: Weapons
+  materials:
+    Steel: 1200
+    Silver: 400
+    BallisticCycler: 500
+
+#SHI
+- type: latheRecipe
+  id: WeaponRifleSHINimrod
+  result: WeaponRifleSHINimrod
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1000
+    Plastic: 300
+    BasicMechatronics: 500
+
+- type: latheRecipe
+  id: WeaponRifleLecterSHI
+  result: WeaponRifleLecter
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1400
+    Plastic: 300
+    BasicMechatronics: 500
+
+- type: latheRecipe
+  id: WeaponRifleGoro
+  result: WeaponRifleGoro
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1600
+    Silver: 500
+    BallisticCycler: 500

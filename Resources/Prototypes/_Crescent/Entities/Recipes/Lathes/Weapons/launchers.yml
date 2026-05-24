@@ -1,0 +1,75 @@
+#DSM
+- type: latheRecipe
+  id: WeaponLauncherM320
+  result: WeaponLauncherM320
+  completetime: 2
+  materials:
+    Steel: 1200
+    Plastic: 700
+    BasicMechatronics: 700
+
+#NCWL
+- type: latheRecipe
+  id: WeaponLauncherGM94
+  result: WeaponLauncherGM94
+  completetime: 2
+  materials:
+    Steel: 1400
+    Plastic: 500
+    TubeLoader: 700
+
+#CD
+- type: latheRecipe
+  id:  WeaponLauncherRocketCyberdawn
+  result: WeaponLauncherRocket
+  completetime: 1.5
+  materials:
+    Steel: 1800
+    TubeLoader: 1000
+    Plastic: 300
+
+- type: latheRecipe
+  id:  WeaponLauncherRPGNSCP
+  result: WeaponLauncherSmallRocket
+  completetime: 1.5
+  materials:
+    Steel: 1400
+    TubeLoader: 500
+    Silver: 500
+
+#SHI
+- type: latheRecipe
+  id: WeaponLauncherMilkor
+  result: WeaponLauncherMilkor
+  completetime: 2
+  materials:
+    Steel: 2200
+    Silver: 800
+    TubeLoader: 700
+
+- type: latheRecipe
+  id: WeaponLauncherDisposableRocket
+  result: WeaponLauncherDisposableRocket
+  completetime: 2
+  materials:
+    Steel: 1400
+    Plastic: 500
+
+- type: latheRecipe
+  id: WeaponRifleM90GrenadeLauncher
+  result: WeaponRifleM90GrenadeLauncher
+  completetime: 2
+  materials:
+    Steel: 2200
+    Silver: 700
+    BallisticCycler: 500
+
+- type: latheRecipe
+  id: WeaponLauncherHammerhead
+  result: WeaponLauncherHammerhead
+  completetime: 2
+  materials:
+    Steel: 2200
+    Silver: 1000
+    TubeLoader: 500
+    AdvancedElectronics: 1000

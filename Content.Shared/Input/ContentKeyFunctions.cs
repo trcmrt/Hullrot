@@ -32,6 +32,9 @@ namespace Content.Shared.Input
         public static readonly BoundKeyFunction OpenInventoryMenu = "OpenInventoryMenu";
         public static readonly BoundKeyFunction SmartEquipBackpack = "SmartEquipBackpack";
         public static readonly BoundKeyFunction SmartEquipBelt = "SmartEquipBelt";
+        public static readonly BoundKeyFunction SmartEquipPocket1 = "SmartEquipPocket1";
+        public static readonly BoundKeyFunction SmartEquipPocket2 = "SmartEquipPocket2";
+        public static readonly BoundKeyFunction SmartEquipSuitStorage = "SmartEquipSuitStorage";
         public static readonly BoundKeyFunction OpenBackpack = "OpenBackpack";
         public static readonly BoundKeyFunction OpenBelt = "OpenBelt";
         public static readonly BoundKeyFunction OpenAHelp = "OpenAHelp";
@@ -101,8 +104,18 @@ namespace Content.Shared.Input
         public static readonly BoundKeyFunction Hotbar7 = "Hotbar7";
         public static readonly BoundKeyFunction Hotbar8 = "Hotbar8";
         public static readonly BoundKeyFunction Hotbar9 = "Hotbar9";
+        public static readonly BoundKeyFunction HotbarShift0 = "HotbarShift0";
+        public static readonly BoundKeyFunction HotbarShift1 = "HotbarShift1";
+        public static readonly BoundKeyFunction HotbarShift2 = "HotbarShift2";
+        public static readonly BoundKeyFunction HotbarShift3 = "HotbarShift3";
+        public static readonly BoundKeyFunction HotbarShift4 = "HotbarShift4";
+        public static readonly BoundKeyFunction HotbarShift5 = "HotbarShift5";
+        public static readonly BoundKeyFunction HotbarShift6 = "HotbarShift6";
+        public static readonly BoundKeyFunction HotbarShift7 = "HotbarShift7";
+        public static readonly BoundKeyFunction HotbarShift8 = "HotbarShift8";
+        public static readonly BoundKeyFunction HotbarShift9 = "HotbarShift9";
         public static BoundKeyFunction[] GetHotbarBoundKeys() =>
-            new[] { Hotbar1, Hotbar2, Hotbar3, Hotbar4, Hotbar5, Hotbar6, Hotbar7, Hotbar8, Hotbar9, Hotbar0, };
+            new[] { Hotbar1, Hotbar2, Hotbar3, Hotbar4, Hotbar5, Hotbar6, Hotbar7, Hotbar8, Hotbar9, Hotbar0, HotbarShift1, HotbarShift2, HotbarShift3, HotbarShift4, HotbarShift5, HotbarShift6, HotbarShift7, HotbarShift8, HotbarShift9, HotbarShift0};
 
         public static readonly BoundKeyFunction Loadout0 = "Loadout0";
         public static readonly BoundKeyFunction Loadout1 = "Loadout1";

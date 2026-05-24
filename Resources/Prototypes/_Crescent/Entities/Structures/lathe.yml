@@ -169,9 +169,9 @@
       - ClothingBeltSyndicateWebbingInterdyne
       - ClothingHeadHatSyndicateInterdyne
       - ClothingOuterArmorSyndicateApron
-      - ClothingHeadHelmetSyndicateBasicInterdyne
-      - ClothingOuterArmorSyndicateArmorvestInterdyne
-      - ClothingOuterHardsuitTraumasec
+      # - ClothingHeadHelmetSyndicateBasicInterdyne
+      # - ClothingOuterArmorSyndicateArmorvestInterdyne
+      # - ClothingOuterHardsuitTraumasec
       - DefibrillatorSyndicate
       - OmnimedToolSyndieInterdyne
       - CyberneticsPainEditorInterdyne
@@ -190,11 +190,11 @@
       - CartridgeAtropineInterdyne
       - SyringeCase
       - MothroachCubeBiochemical
-      - CowCubeBiochemical
-      - GoatCubeBiochemical
+      # - CowCubeBiochemical
+      # - GoatCubeBiochemical
       - CryostasisBeaker
       - SyringeCryostasis
-      - StasisBedMachineCircuitboardBiochemical
+      # - StasisBedMachineCircuitboardBiochemical
   - type: Anchorable
     flags:
     - Anchorable
@@ -261,9 +261,9 @@
       - MagazineBoxImperialRifleBig
       - MagazineHeavyRifleSmall
       - CombatKnife
-      - ExplosivePayload
-      - FlashPayload
-      - ChemicalPayload
+      # - ExplosivePayload
+      # # - FlashPayload
+      # - ChemicalPayload
       - VoiceTrigger
       - SignalTrigger
       - TimerTrigger
@@ -471,11 +471,11 @@
       - BoneGel
       - ParamedHypo
       - MothroachCubeBiochemical
-      - CowCubeBiochemical
-      - GoatCubeBiochemical
+      # - CowCubeBiochemical
+      # - GoatCubeBiochemical
       - CryostasisBeaker
       - SyringeCryostasis
-      - StasisBedMachineCircuitboardBiochemical
+      # - StasisBedMachineCircuitboardBiochemical
       - ClothingHandsGlovesNitrile
       - ClothingMaskSterile
       - Brutepack
@@ -593,8 +593,8 @@
       - MagazinePistolSpecialMindbreakerCyberdawn
       - WeaponPistolPsiBreakerCyberdawn
       - ClothingEyesThermalVisionGogglesCyberdawn
-      - ReinforcementFlatpackSyndicateCyborgMedical
-      - ReinforcementFlatpackSyndicateCyborgSaboteur
+      # ReinforcementFlatpackSyndicateCyborgMedical
+      # ReinforcementFlatpackSyndicateCyborgSaboteur
       - SprigganLPC
       - VelatorLPC
       - TaipanLPC
@@ -610,11 +610,11 @@
       - ClothingMaskSyndicateFacemask
       - ClothingMaskBreathMedicalSecurity
       - ClothingOuterArmorSyndicateApron
-      - ClothingHeadHelmetSyndicateBasicInterdyne
-      - ClothingOuterArmorSyndicateArmorvestInterdyne
-      - ClothingBeltSyndicateWebbingInterdyne
-      - ClothingOuterHardsuitTraumasec
-      - ClothingOuterHardsuitCoordinator
+      # - ClothingHeadHelmetSyndicateBasicInterdyne
+      # - ClothingOuterArmorSyndicateArmorvestInterdyne
+      # - ClothingBeltSyndicateWebbingInterdyne
+      # - ClothingOuterHardsuitTraumasec
+      # - ClothingOuterHardsuitCoordinator
       - ClothingUniformJumpsuitSyndicate #GSC clothing
       - ClothingUniformJumpsuitSyndicateOfficer
       - ClothingHeadHatSyndicateArmaments
@@ -630,7 +630,7 @@
       - ClothingOuterArmorSyndicateArmorvest
       - ClothingBeltSyndicateWebbing
       - ClothingOuterHardsuitSyndicateBG
-      - ClothingOuterHardsuitSyndicateSellsword
+      # - ClothingOuterHardsuitSyndicateSellsword
       - ClothingUniformJumpsuitSyndicateSaws #SAW clothing
       - ClothingOuterArmorSyndicateForeman
       - ClothingHeadHatHardhatSyndicate
@@ -751,10 +751,10 @@
       - ClothingUniformJumpsuitClarizeDoctor
       - ClothingUniformJumpsuitClarizeOfficer
       - ClothingHeadHatClarizeBeret
-      - ClothingOuterArmorClarizianTrooperArmor
-      - ClothingHeadHelmetClarizianTrooperHelmet
-      - ClothingOuterHardsuitClarizianWorker
-      - ClothingOuterHardsuitClarize
+      # - ClothingOuterArmorClarizianTrooperArmor
+      # - ClothingHeadHelmetClarizianTrooperHelmet
+      # - ClothingOuterHardsuitClarizianWorker
+      # - ClothingOuterHardsuitClarize
       - ClothingOuterHardsuitImperialNullweavePsion
       - ImperialPsionBoundlightStaff
       - CarrionFlatpack
@@ -801,7 +801,7 @@
       - SRMKhopesh
       - WeaponSubMachineGunBeetle
       - WeaponRifleHunter
-      - ClothingOuterHardsuitHunterElite
+      # - ClothingOuterHardsuitHunterElite
       - WeaponLauncherM320
       - TriumphantLPC
       - SuzerainLPC
@@ -844,7 +844,7 @@
       - WeaponRifleNCWLRezerv
       - WeaponPistolComrade
       - WeaponSubMachineGunNCWLWatchdog
-      - ClothingOuterHardsuitNCWLInfantry
+      # - ClothingOuterHardsuitNCWLInfantry
       - ClothingOuterHardsuitNCWLMedi
       - ClothingOuterHardsuitNCWLEngi
       - VanguardLPC

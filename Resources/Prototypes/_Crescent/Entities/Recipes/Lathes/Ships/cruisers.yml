@@ -1,0 +1,59 @@
+#DSM
+- type: latheRecipe
+  id: LaelapsLPC
+  result: ShipVoucherLaelaps
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 26000
+    Copper: 5000
+    Silver: 4000
+    Gold: 2000
+    Tungsten: 9000
+    Plasma: 7000
+    Uranium: 2000
+
+#NCWL
+- type: latheRecipe
+  id: IvarodLPC
+  result: ShipVoucherIvarod
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 26000
+    Copper: 5000
+    Silver: 4000
+    Gold: 2000
+    Tungsten: 9000
+    Plasma: 7000
+    Uranium: 2000
+
+#GSC
+- type: latheRecipe
+  id: WolfLPC #turn the wolf into a battlecruiser probs
+  result: ShipVoucherWolf
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 26000
+    Copper: 5000
+    Silver: 4000
+    Gold: 2000
+    Tungsten: 9000
+    Plasma: 7000
+    Uranium: 2000
+
+#IPM
+- type: latheRecipe
+  id: HulkLPC
+  result: ShipVoucherHulk
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 26000
+    Copper: 5000
+    Silver: 4000
+    Gold: 2000
+    Tungsten: 9000
+    Plasma: 7000
+    Uranium: 2000

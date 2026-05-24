@@ -1,0 +1,147 @@
+#DSM
+- type: latheRecipe
+  id: PraetorianLPC
+  result: ShipVoucherPraetorian
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 10000
+    Aluminum: 3000
+    Copper: 2500
+    Silver: 1500
+    Tungsten: 2000
+
+#NCWL
+- type: latheRecipe
+  id: LodkaLPC
+  result: ShipVoucherLodka
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 12000
+    Aluminum: 6000
+    Copper: 3000
+    Silver: 1000
+
+#CD
+- type: latheRecipe
+  id: TaipanLPC
+  result: ShipVoucherTaipan
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 10000
+    Aluminum: 3000
+    Copper: 2500
+    Silver: 1500
+    Tungsten: 2000
+
+- type: latheRecipe
+  id: WispLPC
+  result: ShipVoucherWisp
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 10000
+    Aluminum: 3000
+    Copper: 4000
+    Silver: 3000
+    Gold: 6000
+
+- type: latheRecipe
+  id: SprigganLPC
+  result: ShipVoucherSpriggan
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 12000
+    Aluminum: 6000
+    Copper: 3000
+    Silver: 1000
+
+#SHI
+- type: latheRecipe
+  id: FleaLPC
+  result: ShipVoucherFlea
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 10000
+    Aluminum: 3000
+    Copper: 4000
+    Silver: 3000
+    Gold: 6000
+
+- type: latheRecipe
+  id: BuffaloLPC
+  result: ShipVoucherBuffalo
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 12000
+    Aluminum: 6000
+    Copper: 3000
+    Silver: 1000
+
+- type: latheRecipe
+  id: ChanchuLPC
+  result: ShipVoucherChanchu
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 12000
+    Aluminum: 6000
+    Copper: 3000
+    Silver: 1000
+
+#GSC
+- type: latheRecipe
+  id: CorvaxLPC
+  result: ShipVoucherCorvax
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 10000
+    Aluminum: 3000
+    Copper: 2500
+    Silver: 1500
+    Tungsten: 2000
+
+- type: latheRecipe
+  id: BodybagLPC
+  result: ShipVoucherBodybag
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 10000
+    Aluminum: 3000
+    Copper: 4000
+    Silver: 3000
+    Gold: 6000
+
+
+#IPM
+- type: latheRecipe
+  id: MatabeleLPC
+  result: ShipVoucherMatabele
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 12000
+    Aluminum: 6000
+    Copper: 3000
+    Silver: 1000
+
+#SAW
+- type: latheRecipe
+  id: RockchipperLPC
+  result: ShipVoucherRockchipper
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 12000
+    Aluminum: 6000
+    Copper: 3000
+    Silver: 1000
+    Tungsten: 2000
+

@@ -1,0 +1,206 @@
+#DSM
+- type: latheRecipe
+  id: WeaponRevolverArgenti
+  result: WeaponRevolverArgenti
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 900
+    Tungsten: 150
+
+- type: latheRecipe
+  id: WeaponPistolNeoVolker
+  result: WeaponPistolNeoVolker
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 700
+    Plastic: 200
+    BasicMechatronics: 300
+
+- type: latheRecipe
+  id: WeaponPistolComplianceImperial
+  result: WeaponPistolComplianceImperial
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 800
+    Silver: 200
+    BasicMechatronics: 400
+
+#NCWL
+- type: latheRecipe
+  id: WeaponPistolComrade
+  result: WeaponPistolComrade
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 800
+    BasicMechatronics: 300
+
+- type: latheRecipe
+  id: WeaponPistolT91
+  result: WeaponPistolT91
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1100
+    BasicMechatronics: 400
+
+- type: latheRecipe
+  id: WeaponRevolverPython
+  result: WeaponRevolverPython
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 900
+    Tungsten: 150
+
+#CD
+- type: latheRecipe
+  id: WeaponPistolViperWoodCyberdawn
+  result: WeaponPistolViperWood
+  completetime: 1.5
+  category: Weapons
+  materials:
+    Steel: 700
+    Plastic: 200
+    BasicMechatronics: 300
+
+- type: latheRecipe
+  id: WeaponPistolAnsemCyberdawn
+  result: WeaponPistolAnsem
+  completetime: 1.5
+  category: Weapons
+  materials:
+    Steel: 700
+    Plastic: 200
+    BasicMechatronics: 300
+
+- type: latheRecipe
+  id: WeaponPistolPsiBreakerCyberdawn
+  result: WeaponPistolPsiBreaker
+  completetime: 1.5
+  category: Weapons
+  materials:
+    Gold: 500
+    Steel: 900
+    AdvancedMechatronics: 500
+
+- type: latheRecipe
+  id: MagazinePistolSpecialMindbreakerCyberdawn
+  result: MagazinePistolSpecialMindbreaker
+  completetime: 1.5
+  category: Weapons
+  materials:
+    Silver: 500
+    Steel: 500
+
+#SHI
+- type: latheRecipe
+  id: WeaponPistolBlastpopRed
+  result: WeaponPistolBlastpopRed
+  completetime: 2
+  category: Weapons
+  materials:
+    Plastic: 400
+    Steel: 250
+
+- type: latheRecipe
+  id: WeaponPistolBlastpopPurple
+  result: WeaponPistolBlastpopPurple
+  completetime: 2
+  category: Weapons
+  materials:
+    Plastic: 400
+    Steel: 250
+
+- type: latheRecipe
+  id: WeaponPistolBlastpopGray
+  result: WeaponPistolBlastpopGray
+  completetime: 2
+  category: Weapons
+  materials:
+    Plastic: 400
+    Steel: 250
+
+- type: latheRecipe
+  id: WeaponPistolBlastpopGreen
+  result: WeaponPistolBlastpopGreen
+  completetime: 2
+  category: Weapons
+  materials:
+    Plastic: 400
+    Steel: 250
+
+- type: latheRecipe
+  id: WeaponPistolBlastpopGold
+  result: WeaponPistolBlastpopGold
+  completetime: 2
+  category: Weapons
+  materials:
+    Plastic: 400
+    Steel: 250
+
+- type: latheRecipe
+  id: WeaponPistolBlastpopBlue
+  result: WeaponPistolBlastpopBlue
+  completetime: 2
+  category: Weapons
+  materials:
+    Plastic: 400
+    Steel: 250
+
+- type: latheRecipe
+  id: WeaponPistolZodum
+  result: WeaponPistolZodum
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1200
+    Plastic: 400
+    Silver: 200
+    BasicMechatronics: 400
+
+- type: latheRecipe
+  id: WeaponPistolSmartpistolSHI
+  result: WeaponPistolSmartpistol
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1800
+    Plastic: 400
+    AdvancedElectronics: 500
+    Silver: 300
+
+- type: latheRecipe
+  id: WeaponPistolMk58SHI
+  result: WeaponPistolMk58
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 800
+    Plastic: 300
+    BasicMechatronics: 300
+
+
+- type: latheRecipe
+  id: WeaponRevolverMateba
+  result: WeaponRevolverMateba
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1000
+    Plastic: 500
+    Silver: 300
+    BasicMechatronics: 500
+
+- type: latheRecipe
+  id: WeaponRevolverInspector
+  result: WeaponRevolverInspector
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 1500
+    Plastic: 500
+    Silver: 500

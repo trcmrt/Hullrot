@@ -57,7 +57,7 @@
     shoes: ClothingShoesBootsCombat
     id: OperativePDA
     gloves: ClothingHandsGlovesFingerless
-    outerClothing: ClothingOuterArmorKendoBogu
+    outerClothing: ClothingOuterArmorKendoBoguCyberdawn
     ears: ClothingHeadsetNCSPCyberdawn
     back: ClothingBackpackNCSP
     pocket1: WeaponPistolAnsem

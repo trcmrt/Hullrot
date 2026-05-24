@@ -1,0 +1,57 @@
+#DSM
+- type: latheRecipe
+  id: WeaponLightMachineGunDSMDominion
+  result: WeaponLightMachineGunDSMDominion
+  completetime: 1.5
+  category: Weapons
+  materials:
+    Steel: 2500
+    Plastic: 800
+    Tungsten: 500
+    BallisticCycler: 1200
+
+#NCWL
+- type: latheRecipe
+  id: WeaponLightMachineGunConscript
+  result: WeaponLightMachineGunConscript
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 3200
+    Tungsten: 1000
+    TubeLoader: 250
+    BallisticCycler: 1800
+
+#CD
+- type: latheRecipe
+  id: WeaponLightMachineGunCompaktCyberdawn
+  result: WeaponLightMachineGunCompakt
+  completetime: 1.5
+  category: Weapons
+  materials:
+    Steel: 2200
+    Plastic: 1000
+    BallisticCycler: 1200
+
+- type: latheRecipe
+  id: WeaponLightMachineGunNCSPRPD
+  result: WeaponLightMachineGunNCSPRPD
+  completetime: 1.5
+  category: Weapons
+  materials:
+    Steel: 2400
+    Plastic: 1200
+    Silver: 600
+    BallisticCycler: 1400
+
+#SHI
+- type: latheRecipe
+  id: WeaponLightMachineGunL6
+  result: WeaponLightMachineGunL6
+  completetime: 2
+  category: Weapons
+  materials:
+    Steel: 2800
+    Plastic: 1500
+    Silver: 800
+    BallisticCycler: 1600

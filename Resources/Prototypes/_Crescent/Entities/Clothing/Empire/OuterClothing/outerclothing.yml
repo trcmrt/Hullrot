@@ -36,7 +36,7 @@
   - type: ReverseEngineering # Sector Crescent
     recipes:
       - ClothingOuterHardsuitImperialWorker
-      - ClothingOuterHardsuitClarizianWorker
+      # - ClothingOuterHardsuitClarizianWorker
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, StreeCredRedeemableHigh, ClothingArmorInsertHardsuit]
@@ -108,7 +108,7 @@
     faction: DSM
   - type: ReverseEngineering # Sector Crescent
     recipes:
-      - ClothingOuterHardsuitClarizianWorker
+      # - ClothingOuterHardsuitClarizianWorker
       - ClothingOuterHardsuitImperialWorker
 
 - type: entity
@@ -171,8 +171,8 @@
     faction: DSM
   - type: ReverseEngineering # Sector Crescent
     recipes:
-      - ClothingOuterHardsuitClarize
-      - ClothingOuterHardsuitClarizianWorker
+      # - ClothingOuterHardsuitClarize
+      # - ClothingOuterHardsuitClarizianWorker
       - ClothingOuterHardsuitImperialSoldier
       - ClothingOuterHardsuitImperialWorker
 
@@ -258,8 +258,8 @@
     recipes:
       - ClothingOuterHardsuitImperialSoldier
       - ClothingOuterHardsuitImperialWorker
-      - ClothingOuterHardsuitClarize
-      - ClothingOuterHardsuitClarizianWorker
+      # - ClothingOuterHardsuitClarize
+      # - ClothingOuterHardsuitClarizianWorker
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, StreeCredRedeemable, ClothingArmorInsertHardsuit]
@@ -311,7 +311,7 @@
   parent: ClothingOuterHardsuitImperialSoldier
   id: ClothingOuterHardsuitImperialBanneret
   name: MECS Typ 1 'SABRE' Modified Hardsuit
-  description: A variation of the MECS Typ1 hardsuit designed to distinguish minor nobility on the battlefield. It's outfitted with pauldrons and a skirt, with some tasteful gold plating.
+  description: A variation of the MECS Typ 1 hardsuit designed to distinguish minor nobility on the battlefield. It's outfitted with pauldrons and a skirt, with some tasteful gold plating.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/Empire/OuterClothing/mandatebanneret.rsi
@@ -363,8 +363,8 @@
         Cold: 0.75
         Caustic: 0.75
   - type: ClothingSpeedModifier #mildly better than other jugsuits, but far worse protection than a T2
-    walkModifier: 0.6
-    sprintModifier: 0.6
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: Reflect
     spread: 270
@@ -424,8 +424,8 @@
     recipes:
       - ClothingOuterArmorImperialTrooperArmor
       - ClothingHeadHelmetImperialTrooperHelmet
-      - ClothingOuterArmorClarizianTrooperArmor
-      - ClothingHeadHelmetClarizianTrooperHelmet
+      # - ClothingOuterArmorClarizianTrooperArmor
+      # - ClothingHeadHelmetClarizianTrooperHelmet
 
 - type: entity
   parent: ClothingOuterArmorBasic
@@ -456,8 +456,8 @@
     faction: DSM
   - type: ReverseEngineering # Sector Crescent
     recipes:
-      - ClothingOuterArmorClarizianTrooperArmor
-      - ClothingHeadHelmetClarizianTrooperHelmet
+      # - ClothingOuterArmorClarizianTrooperArmor
+      # - ClothingHeadHelmetClarizianTrooperHelmet
       - ClothingOuterArmorImperialTrooperArmor
       - ClothingHeadHelmetImperialTrooperHelmet
 
@@ -498,8 +498,8 @@
       - ClothingHeadHelmetImperialKnightCommanderHelmet
       - ClothingOuterArmorImperialTrooperArmor
       - ClothingHeadHelmetImperialTrooperHelmet
-      - ClothingOuterArmorClarizianTrooperArmor
-      - ClothingHeadHelmetClarizianTrooperHelmet
+      # - ClothingOuterArmorClarizianTrooperArmor
+      # - ClothingHeadHelmetClarizianTrooperHelmet
 
 #coats
 
@@ -615,7 +615,7 @@
   - type: ReverseEngineering # Sector Crescent
     recipes:
       - ClothingOuterCoatImperialParade
-      - ClothingOuterCoatClarizianOfficer
+      # - ClothingOuterCoatClarizianOfficer
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -633,7 +633,7 @@
     faction: DSM
   - type: ReverseEngineering # Sector Crescent
     recipes:
-      - ClothingOuterCoatClarizianOfficer
+      # - ClothingOuterCoatClarizianOfficer
       - ClothingOuterCoatImperialParade
 
 - type: entity
@@ -694,7 +694,7 @@
   - type: ReverseEngineering # Sector Crescent
     difficulty: 2
     recipes:
-      - ClothingOuterCoatImperialRitter
+      # - ClothingOuterCoatImperialRitter
       - ClothingOuterHardsuitImperialWorker
 
 - type: entity

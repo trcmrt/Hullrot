@@ -1,0 +1,78 @@
+#DSM
+- type: latheRecipe
+  id: ClothingHeadHelmetImperialTrooperHelmet
+  result: ClothingHeadHelmetImperialTrooperHelmet
+  completetime: 2
+  materials:
+    Cloth: 200
+    Steel: 700
+
+- type: latheRecipe
+  id: ClothingHeadHelmetImperialKnightCommanderHelmet
+  result: ClothingHeadHelmetImperialKnightCommanderHelmet
+  completetime: 2
+  materials:
+    Cloth: 200
+    Steel: 700
+    Gold: 150
+
+#NCWL
+- type: latheRecipe
+  id: ClothingHeadHelmetNCWLBasic
+  result: ClothingHeadHelmetNCWLBasic
+  completetime: 2
+  materials:
+    Cloth: 200
+    Steel: 700
+
+- type: latheRecipe
+  id: ClothingHeadHelmetNCWLHeavy
+  result: ClothingHeadHelmetNCWLHeavy
+  completetime: 2
+  materials:
+    Steel: 700
+    Tungsten: 200
+
+- type: latheRecipe
+  id: ClothingHeadHelmetNCWLRiot
+  result: ClothingHeadHelmetNCWLRiot
+  completetime: 2
+  materials:
+    Steel: 350
+    Plastic: 450
+
+#SHI
+- type: latheRecipe
+  id: ClothingHeadHatShinoharaHelmet
+  result: ClothingHeadHatShinoharaHelmet
+  completetime: 2
+  materials:
+    Durathread: 100
+    Steel: 350
+    Tungsten: 150
+
+- type: latheRecipe
+  id: ClothingHeadHatShinoharaHelmetUA
+  result: ClothingHeadHatShinoharaHelmetUA
+  completetime: 2
+  materials:
+    Cloth: 200
+    Steel: 700
+
+- type: latheRecipe
+  id: ClothingHeadHatShinoharaNonevaHelm
+  result: ClothingHeadHatShinoharaNonevaHelm
+  completetime: 2
+  materials:
+    Durathread: 350
+    Steel: 400
+    Tungsten: 150
+
+#GSC
+- type: latheRecipe
+  id: ClothingHeadHelmetSyndicateBasic
+  result: ClothingHeadHelmetSyndicateBasic
+  completetime: 1.5
+  materials:
+    Durathread: 450
+    Steel: 250

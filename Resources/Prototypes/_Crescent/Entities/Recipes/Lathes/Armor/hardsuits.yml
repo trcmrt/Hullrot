@@ -1,0 +1,270 @@
+# NCWL
+- type: latheRecipe
+  id: ClothingOuterHardsuitNCWLEngi
+  result: ClothingOuterHardsuitNCWLEngi
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 1000
+    HardsuitElectronics: 250
+    Cloth: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitNCWLMedi
+  result: ClothingOuterHardsuitNCWLMedi
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 1000
+    HardsuitElectronics: 250
+    Cloth: 500
+
+# - type: latheRecipe
+#   id: ClothingOuterHardsuitNCWLInfantry
+#   result: ClothingOuterHardsuitNCWLInfantry
+#   completetime: 2
+#   materials:
+#     Steel: 2000
+#     HardsuitElectronics: 500
+#     Plastic: 500
+#     Cloth: 1000
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitNCWLPetya
+  result: ClothingOuterHardsuitNCWLPetya
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 1500
+    Durathread: 500
+    Tungsten: 500
+    HardsuitElectronics: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitNCWLJuggernaut
+  result: ClothingOuterHardsuitNCWLJuggernaut
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 3000
+    Durathread: 1500
+    Tungsten: 2500
+    HardsuitElectronics: 1000
+    NanotrasenElectronics: 1000
+
+# DSM
+- type: latheRecipe
+  id: ClothingOuterHardsuitImperialWorker
+  result: ClothingOuterHardsuitImperialWorker
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 1000
+    HardsuitElectronics: 250
+    Cloth: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitImperialSoldier
+  result: ClothingOuterHardsuitImperialSoldier
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 1500
+    Durathread: 500
+    Tungsten: 500
+    HardsuitElectronics: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitImperialKnight
+  result: ClothingOuterHardsuitImperialKnight
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 2000
+    Durathread: 1000
+    Tungsten: 1500
+    HardsuitElectronics: 750
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitImperialJuggernaut
+  result: ClothingOuterHardsuitImperialJuggernaut
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 3000
+    Durathread: 1500
+    Tungsten: 2500
+    HardsuitElectronics: 1000
+    NanotrasenElectronics: 1000
+    HardlightGenerator: 2000
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitImperialNullweavePsion
+  result: ClothingOuterHardsuitImperialNullweavePsion
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 2000
+    Durathread: 1000
+    Tungsten: 1500
+    HardsuitElectronics: 750
+    NanotrasenElectronics: 500
+
+#Cyberdawn
+- type: latheRecipe
+  id: ClothingOuterHardsuitCybersun
+  result: ClothingOuterHardsuitCybersun
+  completetime: 1.5
+  category: Hardsuits
+  materials:
+    Steel: 1000
+    HardsuitElectronics: 250
+    Cloth: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitCyberdawnTactical
+  result: ClothingOuterHardsuitCyberdawnTactical
+  completetime: 1.5
+  category: Hardsuits
+  materials:
+    Steel: 2000
+    Durathread: 1000
+    Tungsten: 1500
+    HardsuitElectronics: 750
+    NanotrasenElectronics: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitCybersunStealthCyberdawn
+  result: ClothingOuterHardsuitCybersunStealth
+  completetime: 1.5
+  category: Hardsuits
+  materials:
+    Steel: 1000
+    Durathread: 1500
+    Silver: 750
+    AdvancedElectronics: 1000
+    HardsuitElectronics: 500
+
+#GSC
+- type: latheRecipe
+  id: ClothingOuterHardsuitSyndicateBG
+  result: ClothingOuterHardsuitSyndicateBG
+  completetime: 1.5
+  category: Hardsuits
+  materials:
+    Steel: 1500
+    Durathread: 500
+    Tungsten: 500
+    HardsuitElectronics: 500
+
+#SAW
+- type: latheRecipe
+  id: ClothingOuterHardsuitRamzi
+  result: ClothingOuterHardsuitRamzi
+  completetime: 1.5
+  category: Hardsuits
+  materials:
+    Steel: 1000
+    HardsuitElectronics: 250
+    Cloth: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitSyndieDonator
+  result: ClothingOuterHardsuitSyndieDonator
+  completetime: 1.5
+  category: Hardsuits
+  materials:
+    Steel: 1500
+    Durathread: 500
+    Tungsten: 500
+    HardsuitElectronics: 500
+
+#SHI
+- type: latheRecipe
+  id: ClothingOuterHardsuitMetrocop
+  result: ClothingOuterHardsuitMetrocop
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 1500
+    Durathread: 500
+    Tungsten: 500
+    HardsuitElectronics: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitCombine
+  result: ClothingOuterHardsuitCombine
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 1500
+    Durathread: 500
+    Tungsten: 500
+    HardsuitElectronics: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitHighsec
+  result: ClothingOuterHardsuitHighsec
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 1500
+    Durathread: 500
+    Tungsten: 500
+    HardsuitElectronics: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitHighsecIndependent
+  result: ClothingOuterHardsuitHighsecIndependent
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 1500
+    Durathread: 500
+    Tungsten: 500
+    HardsuitElectronics: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitHighsecUA
+  result: ClothingOuterHardsuitHighsecUA
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 1500
+    Durathread: 500
+    Tungsten: 500
+    HardsuitElectronics: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitHEV
+  result: ClothingOuterHardsuitHEV
+  completetime: 2
+  category: Hardsuits
+  materials:
+    Steel: 1000
+    HardsuitElectronics: 500
+    Cloth: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitSHISpeedsuit
+  result: ClothingOuterHardsuitSHISpeedsuit
+  completetime: 3
+  category: Hardsuits
+  materials:
+    Steel: 1000
+    Durathread: 1500
+    Silver: 750
+    AdvancedElectronics: 1000 #NVGs
+    HardsuitElectronics: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitSHIJuggernaut
+  result: ClothingOuterHardsuitSHIJuggernaut
+  completetime: 6
+  category: Hardsuits
+  materials:
+    Steel: 3000
+    Durathread: 1500
+    Tungsten: 2500
+    HardsuitElectronics: 1000
+    AdvancedMechatronics: 1000 #Exoskeletal support for the additional armour platings

@@ -30,8 +30,8 @@
     price: 75
   - type: ReverseEngineering # Sector Crescent
     recipes:
-      - ClothingHeadHelmetSyndicateBasicInterdyne
-      - ClothingOuterArmorSyndicateArmorvestInterdyne
+      # - ClothingHeadHelmetSyndicateBasicInterdyne
+      # - ClothingOuterArmorSyndicateArmorvestInterdyne
 
 ## hardsuit helmets
 

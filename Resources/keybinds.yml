@@ -254,6 +254,18 @@ binds:
   type: State
   key: E
   mod1: Shift
+- function: SmartEquipPocket1
+  type: State
+  key: F
+  mod1: Shift
+- function: SmartEquipPocket2
+  type: State
+  key: G
+  mod1: Shift
+- function: SmartEquipSuitStorage
+  type: State
+  key: H
+  mod1: Shift
 - function: OpenBackpack
   type: State
   key: V
@@ -282,16 +294,6 @@ binds:
   type: State
   key: MouseMiddle
   canFocus: true
-- function: RotateObjectClockwise
-  type: State
-  key: R
-- function: RotateObjectCounterclockwise
-  type: State
-  key: R
-  mod1: Shift
-- function: FlipObject
-  type: State
-  key: F
 - function: TextCursorLeft
   type: State
   key: Left
@@ -478,9 +480,6 @@ binds:
 - function: OpenDecalSpawnWindow
   type: State
   key: F8
-- function: ToggleRoundEndSummaryWindow
-  type: Toggle
-  key: F9
 - function: OpenSandboxWindow
   type: State
   key: B
@@ -563,51 +562,89 @@ binds:
 - function: Hotbar9
   type: State
   key: Num9
-- function: Loadout0
+- function: HotbarShift0
   type: State
   key: Num0
   mod1: Shift
-- function: Loadout1
+- function: HotbarShift1
   type: State
   key: Num1
   mod1: Shift
-- function: Loadout2
+- function: HotbarShift2
   type: State
   key: Num2
   mod1: Shift
-- function: Loadout3
+- function: HotbarShift3
   type: State
   key: Num3
   mod1: Shift
-- function: Loadout4
+- function: HotbarShift4
   type: State
   key: Num4
   mod1: Shift
-- function: Loadout5
+- function: HotbarShift5
   type: State
   key: Num5
   mod1: Shift
-- function: Loadout6
+- function: HotbarShift6
   type: State
   key: Num6
   mod1: Shift
-- function: Loadout7
+- function: HotbarShift7
   type: State
   key: Num7
   mod1: Shift
-- function: Loadout8
+- function: HotbarShift8
   type: State
   key: Num8
   mod1: Shift
-- function: Loadout9
+- function: HotbarShift9
   type: State
   key: Num9
   mod1: Shift
-# WD EDIT START
+- function: Loadout0
+  type: State
+  key: Num0
+  mod1: Control
+- function: Loadout1
+  type: State
+  key: Num1
+  mod1: Control
+- function: Loadout2
+  type: State
+  key: Num2
+  mod1: Control
+- function: Loadout3
+  type: State
+  key: Num3
+  mod1: Control
+- function: Loadout4
+  type: State
+  key: Num4
+  mod1: Control
+- function: Loadout5
+  type: State
+  key: Num5
+  mod1: Control
+- function: Loadout6
+  type: State
+  key: Num6
+  mod1: Control
+- function: Loadout7
+  type: State
+  key: Num7
+  mod1: Control
+- function: Loadout8
+  type: State
+  key: Num8
+  mod1: Control
+- function: Loadout9
+  type: State
+  key: Num9
+  mod1: Control
 - function: LookUp
   type: State
   key: Space
-# WD EDIT END
 - function: MappingUnselect
   type: State
   key: MouseRight

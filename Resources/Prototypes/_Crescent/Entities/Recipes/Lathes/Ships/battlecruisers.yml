@@ -1,0 +1,44 @@
+#DSM
+- type: latheRecipe
+  id: SunesisLPC
+  result: ShipVoucherSunesis
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 22000
+    Copper: 5000
+    Silver: 3500
+    Gold: 1500
+    Tungsten: 7000
+    Plasma: 8500
+    Uranium: 1500
+
+#NCWL
+- type: latheRecipe
+  id: ListerLPC
+  result: ShipVoucherLister
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 22000
+    Copper: 5000
+    Silver: 3500
+    Gold: 1500
+    Tungsten: 7000
+    Plasma: 8500
+    Uranium: 1500
+
+#GSC
+- type: latheRecipe
+  id: EradicatorLPC
+  result: ShipVoucherEradicator
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 22000
+    Copper: 5000
+    Silver: 3500
+    Gold: 1500
+    Tungsten: 7000
+    Plasma: 8500
+    Uranium: 1500

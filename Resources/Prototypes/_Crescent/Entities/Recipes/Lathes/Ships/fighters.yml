@@ -1,0 +1,138 @@
+#DSM
+- type: latheRecipe
+  id: IbisLPC
+  result: ShipVoucherIbis
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500
+
+- type: latheRecipe
+  id: RedemptorLPC
+  result: ShipVoucherRedemptor
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500
+
+#NCWL
+- type: latheRecipe
+  id: VanguardLPC
+  result: ShipVoucherVanguard
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500
+
+- type: latheRecipe
+  id: KrechetLPC
+  result: ShipVoucherKrechet
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500
+
+#SHI
+- type: latheRecipe
+  id: NazaarLPC
+  result: ShipVoucherNazaar
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500
+
+#GSC
+- type: latheRecipe
+  id: ItchLPC
+  result: ShipVoucherItch
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500
+
+- type: latheRecipe
+  id: ReaverLPC
+  result: ShipVoucherReaver
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500
+
+#CD
+- type: latheRecipe
+  id: WreckLPC
+  result: ShipVoucherWreck
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500
+
+#IPM
+- type: latheRecipe
+  id: MeatwagonLPC
+  result: ShipVoucherMeatwagon
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500
+
+- type: latheRecipe
+  id: FridgeLPC
+  result: ShipVoucherFridge
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500
+
+#SAW
+- type: latheRecipe
+  id: MercuryMK2LPC
+  result: ShipVoucherMercuryMK2
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500
+
+- type: latheRecipe
+  id: ShantyLPC
+  result: ShipVoucherShanty
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 3500
+    Aluminum: 2000
+    Copper: 1000
+    Silver: 500

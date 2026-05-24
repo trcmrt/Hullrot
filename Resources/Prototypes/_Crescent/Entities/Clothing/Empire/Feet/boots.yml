@@ -59,8 +59,8 @@
 - type: entity
   parent: ClothingShoesBootsMagCombat
   id: ClothingShoesBootsMagDSM
-  name: imperial combat magboots
-  description: Combat magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+  name: imperial magboots
+  description: Imperial-design magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/Empire/Feet/mandatemagboots.rsi

@@ -278,11 +278,11 @@
     tags:
     - ClothMade
     - WhitelistChameleon
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingHeadHatClarizeBeret
-      - ClothingHeadHatImperialBeret
-      - ClothingHeadHatImperialPeakedCap
+  # - type: ReverseEngineering # Sector Crescent
+  #   recipes:
+  #     - ClothingHeadHatClarizeBeret
+  #     - ClothingHeadHatImperialBeret
+  #     - ClothingHeadHatImperialPeakedCap
 
 - type: entity
   parent: ClothingHeadBase
@@ -316,11 +316,11 @@
     tags:
     - ClothMade
     - WhitelistChameleon
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingHeadHatImperialBeret
-      - ClothingHeadHatImperialPeakedCap
-      - ClothingHeadHatClarizeBeret
+  # - type: ReverseEngineering # Sector Crescent
+  #   recipes:
+  #     - ClothingHeadHatImperialBeret
+  #     - ClothingHeadHatImperialPeakedCap
+  #     - ClothingHeadHatClarizeBeret
 
 - type: entity
   parent: ClothingHeadBase
@@ -383,8 +383,8 @@
     recipes:
       - ClothingHeadHelmetImperialTrooperHelmet
       - ClothingOuterArmorImperialTrooperArmor
-      - ClothingHeadHelmetClarizianTrooperHelmet
-      - ClothingOuterArmorClarizianTrooperArmor
+      # - ClothingHeadHelmetClarizianTrooperHelmet
+      # - ClothingOuterArmorClarizianTrooperArmor
 
 - type: entity
   parent: ClothingHeadBase
@@ -415,8 +415,8 @@
   - type: IdentityBlocker
   - type: ReverseEngineering # Sector Crescent
     recipes:
-      - ClothingHeadHelmetClarizianTrooperHelmet
-      - ClothingOuterArmorClarizianTrooperArmor
+      # - ClothingHeadHelmetClarizianTrooperHelmet
+      # - ClothingOuterArmorClarizianTrooperArmor
       - ClothingHeadHelmetImperialTrooperHelmet
       - ClothingOuterArmorImperialTrooperArmor
 
@@ -453,8 +453,8 @@
       - ClothingOuterArmorImperialArmorPrestige
       - ClothingHeadHelmetImperialTrooperHelmet
       - ClothingOuterArmorImperialTrooperArmor
-      - ClothingHeadHelmetClarizianTrooperHelmet
-      - ClothingOuterArmorClarizianTrooperArmor
+      # - ClothingHeadHelmetClarizianTrooperHelmet
+      # - ClothingOuterArmorClarizianTrooperArmor
 
 - type: entity
   parent: ClothingHeadBase
@@ -527,7 +527,7 @@
     recipes:
       - ClothingHeadHatImperialPeakedCap
       - ClothingHeadHatImperialBeret
-      - ClothingHeadHatClarizeBeret
+      # - ClothingHeadHatClarizeBeret
 
 - type: entity
   parent: ClothingHeadBase

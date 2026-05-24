@@ -1,0 +1,115 @@
+#DSM, none yet lol! add the torturer here SOON
+
+#NCWL
+- type: latheRecipe
+  id: HindLPC
+  result: ShipVoucherHind
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 16000
+    Copper: 3500
+    Silver: 2500
+    Tungsten: 5000
+    Plasma: 2500
+
+- type: latheRecipe
+  id: BogatyrLPC
+  result: ShipVoucherBogatyr
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 16000
+    Copper: 3500
+    Silver: 2500
+    Tungsten: 5000
+    Plasma: 2500
+
+#SHI
+- type: latheRecipe
+  id: MusinyaneLPC
+  result: ShipVoucherMusinyane
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 16000
+    Copper: 3500
+    Silver: 2500
+    Tungsten: 5000
+    Plasma: 2500
+
+- type: latheRecipe
+  id: FujinLPC
+  result: ShipVoucherFujin
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 16000
+    Copper: 3500
+    Silver: 2500
+    Tungsten: 5000
+    Plasma: 2500
+
+#GSC
+- type: latheRecipe
+  id: BoSinnLPC
+  result: ShipVoucherSinn
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 16000
+    Copper: 3500
+    Silver: 2500
+    Tungsten: 5000
+    Plasma: 2500
+
+#no cerberus lpc ig, to do later
+
+#SAW
+- type: latheRecipe
+  id: ScabrakLPC
+  result: ShipVoucherScabrak
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 16000
+    Copper: 3500
+    Silver: 2500
+    Tungsten: 5000
+    Plasma: 2500
+
+- type: latheRecipe
+  id: HyenaLPC
+  result: ShipVoucherHyena
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 16000
+    Copper: 3500
+    Silver: 2500
+    Tungsten: 5000
+    Plasma: 2500
+
+- type: latheRecipe
+  id: GeodeLPC
+  result: ShipVoucherGeode
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 16000
+    Copper: 3500
+    Silver: 2500
+    Tungsten: 5000
+    Plasma: 2500
+
+- type: latheRecipe
+  id: AmadeusLPC
+  result: ShipVoucherAmadeus
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 16000
+    Copper: 3500
+    Silver: 2500
+    Tungsten: 5000
+    Plasma: 2500

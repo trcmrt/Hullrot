@@ -1,0 +1,63 @@
+#DSM
+- type: latheRecipe
+  id: WeaponSniperImperator
+  result: WeaponSniperImperator
+  completetime: 2
+  materials:
+    Steel: 3000
+    Plastic: 500
+    Tungsten: 1000
+    BallisticCycler: 1200
+
+#NCWL
+- type: latheRecipe
+  id: WeaponSniperMolot
+  result: WeaponSniperMolot
+  completetime: 2
+  materials:
+    Steel: 2400
+    Plasteel: 800
+    Tungsten: 600
+    BallisticCycler: 900
+
+#CD
+- type: latheRecipe
+  id:  WeaponRifleSVDMarksmanNCSP
+  result: WeaponRifleSVDMarksman
+  completetime: 1.5
+  materials:
+    Steel: 2200
+    Plastic: 1200
+    Silver: 1000
+    BallisticCycler: 1000
+
+- type: latheRecipe
+  id:  WeaponSniperAK60Cyberdawn
+  result: WeaponSniperAK60
+  completetime: 1.5
+  materials:
+    Steel: 2800
+    Plastic: 1000
+    Silver: 700
+    BallisticCycler: 1300
+
+#SHI
+- type: latheRecipe
+  id: WeaponSniperHristov
+  result: WeaponSniperHristov
+  completetime: 2
+  materials:
+    Steel: 2200
+    Plastic: 1800
+    Silver: 1200
+    BallisticCycler: 1200
+
+- type: latheRecipe
+  id: WeaponRifleBarghest
+  result: WeaponRifleBarghest
+  completetime: 2
+  materials:
+    Steel: 2200
+    Plastic: 1200
+    Silver: 1000
+    BallisticCycler: 1000

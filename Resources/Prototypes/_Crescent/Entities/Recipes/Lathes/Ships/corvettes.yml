@@ -1,0 +1,81 @@
+#DSM
+- type: latheRecipe
+  id: HussarLPC
+  result: ShipVoucherHussar
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 6000
+    Aluminum: 3500
+    Copper: 1500
+    Silver: 1000
+
+#NCWL
+- type: latheRecipe
+  id: StraznikLPC
+  result: ShipVoucherStraznik
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 6000
+    Aluminum: 3500
+    Copper: 1500
+    Silver: 1000
+
+- type: latheRecipe
+  id: ZorniyLPC
+  result: ShipVoucherZorniy
+  completetime: 1
+  category: LPCs
+  materials:
+    Steel: 6000
+    Aluminum: 3500
+    Copper: 1500
+    Silver: 1000
+
+#GSC
+- type: latheRecipe
+  id: CleaverLPC
+  result: ShipVoucherCleaver
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 6000
+    Aluminum: 3500
+    Copper: 1500
+    Silver: 1000
+
+#IPM
+- type: latheRecipe
+  id: HarpyLPC
+  result: ShipVoucherHarpy
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 6000
+    Aluminum: 3500
+    Copper: 1500
+    Silver: 1000
+
+#SAW
+- type: latheRecipe
+  id: ThanapodLPC
+  result: ShipVoucherThanapod
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 6000
+    Aluminum: 3500
+    Copper: 1500
+    Silver: 1000
+
+- type: latheRecipe
+  id: CaracalLPC
+  result: ShipVoucherCaracal
+  completetime: 1.5
+  category: LPCs
+  materials:
+    Steel: 6000
+    Aluminum: 3500
+    Copper: 1500
+    Silver: 1000
