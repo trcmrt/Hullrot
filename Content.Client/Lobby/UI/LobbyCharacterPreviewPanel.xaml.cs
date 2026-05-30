@@ -6,6 +6,7 @@ using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 
+
 namespace Content.Client.Lobby.UI;
 
 [GenerateTypedNameReferences]
@@ -31,7 +32,35 @@ public sealed partial class LobbyCharacterPreviewPanel : Control
 
     public void SetSummaryText(string value)
     {
-        Summary.Text = value;
+        // changes for my dossiervibes
+
+        CharacterName.Text = value;
+        CharacterAge.Text = "UNKNOWN";
+
+        const string prefix = "This is ";
+        const string ageMarker = ". He is ";
+        const string ageSuffix = " years old.";
+
+        if (!value.StartsWith(prefix))
+            return;
+
+        var withoutPrefix = value.Substring(prefix.Length);
+
+        var ageMarkerIndex = withoutPrefix.IndexOf(ageMarker, StringComparison.Ordinal);
+
+        if (ageMarkerIndex == -1)
+            return;
+
+        CharacterName.Text = withoutPrefix.Substring(0, ageMarkerIndex);
+
+        var ageStart = ageMarkerIndex + ageMarker.Length;
+
+        var ageEnd = withoutPrefix.IndexOf(ageSuffix, ageStart, StringComparison.Ordinal);
+
+        if (ageEnd == -1)
+            return;
+
+        CharacterAge.Text = withoutPrefix.Substring(ageStart, ageEnd - ageStart);
     }
 
     public void SetSprite(EntityUid uid)

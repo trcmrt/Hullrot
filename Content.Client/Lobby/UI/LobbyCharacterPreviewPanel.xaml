@@ -1,20 +1,94 @@
 <Control
     xmlns="https://spacestation14.io"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls">
+    xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+    xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client">
+
     <BoxContainer Name="VBox" Orientation="Vertical">
-        <controls:NanoHeading Name="Header" Text="{Loc 'lobby-character-preview-panel-header'}">
 
-        </controls:NanoHeading>
-        <BoxContainer Name="Loaded" Orientation="Vertical" Visible="False">
-            <Label Name="Summary" HorizontalAlignment="Center" Margin="3 3"/>
-            <BoxContainer Name="ViewBox" Orientation="Horizontal" HorizontalAlignment="Center">
+        <BoxContainer Name="Loaded" Orientation="Vertical" Visible="False" SeparationOverride="6">
 
-            </BoxContainer>
-            <controls:VSpacer/>
-            <Button Name="CharacterSetup" Text="{Loc 'lobby-character-preview-panel-character-setup-button'}"
-                HorizontalAlignment="Center" Margin="0 5 0 0"/>
+            <PanelContainer>
+                <PanelContainer.PanelOverride>
+                    <graphics:StyleBoxFlat BackgroundColor="#0A0705F0"
+                                           BorderColor="#8C6A32"
+                                           BorderThickness="1"
+                                           ContentMarginLeftOverride="0"
+                                           ContentMarginRightOverride="0"
+                                           ContentMarginTopOverride="0"
+                                           ContentMarginBottomOverride="0" />
+                </PanelContainer.PanelOverride>
+
+                <BoxContainer Orientation="Horizontal"
+                            SeparationOverride="0"
+                            Margin="6 6 6 6">
+
+                    <PanelContainer MinSize="120 130" Margin="0 0 -1 0">
+                        <PanelContainer.PanelOverride>
+                            <graphics:StyleBoxFlat BackgroundColor="#080404F2"
+                                                   BorderColor="#A57A3A"
+                                                   BorderThickness="1"
+                                                   ContentMarginLeftOverride="4"
+                                                   ContentMarginRightOverride="4"
+                                                   ContentMarginTopOverride="4"
+                                                   ContentMarginBottomOverride="4" />
+                        </PanelContainer.PanelOverride>
+
+                        <BoxContainer Name="ViewBox"
+                                      Orientation="Horizontal"
+                                      HorizontalAlignment="Center"
+                                      VerticalAlignment="Center" />
+                    </PanelContainer>
+
+                    <BoxContainer Orientation="Vertical" HorizontalExpand="True" SeparationOverride="4">
+                        <PanelContainer>
+                            <PanelContainer.PanelOverride>
+                                <graphics:StyleBoxFlat BackgroundColor="#020202F2"
+                                                       BorderColor="#8C6A32"
+                                                       BorderThickness="0,1,1,1"
+                                                       ContentMarginLeftOverride="6"
+                                                       ContentMarginRightOverride="6"
+                                                       ContentMarginTopOverride="3"
+                                                       ContentMarginBottomOverride="3" />
+                            </PanelContainer.PanelOverride>
+
+                            <Label Text="IDENTITY RECORD"
+                                   FontColorOverride="#B09155"
+                                   StyleClasses="LabelHeading" />
+                        </PanelContainer>
+
+                        <BoxContainer Orientation="Horizontal" SeparationOverride="8">
+                            <Label Text="NAME:" MinWidth="70" FontColorOverride="#B09155" />
+                            <Label Name="CharacterName" HorizontalExpand="True" FontColorOverride="#E6E0D6" />
+                        </BoxContainer>
+
+                        <BoxContainer Orientation="Horizontal" SeparationOverride="8">
+                            <Label Text="AGE:" MinWidth="70" FontColorOverride="#B09155" />
+                            <Label Name="CharacterAge" HorizontalExpand="True" FontColorOverride="#E6E0D6" />
+                        </BoxContainer>
+
+                        <BoxContainer Orientation="Horizontal" SeparationOverride="8">
+                            <Label Text="STATUS:" MinWidth="70" FontColorOverride="#B09155" />
+                            <Label Text="ACTIVE" HorizontalExpand="True" FontColorOverride="#E6E0D6" />
+                        </BoxContainer>
+
+                        <BoxContainer Orientation="Horizontal" SeparationOverride="8">
+                            <Label Text="REGION:" MinWidth="70" FontColorOverride="#B09155" />
+                            <Label Text="TAYPAN" HorizontalExpand="True" FontColorOverride="#E6E0D6" />
+                        </BoxContainer>
+                    </BoxContainer>
+
+                </BoxContainer>
+            </PanelContainer>
+
+            <Button Name="CharacterSetup"
+                    Text="{Loc 'lobby-character-preview-panel-character-setup-button'}"
+                    StyleClasses="CrescentButton"
+                    HorizontalAlignment="Center"
+                    Margin="0 2 0 0" />
         </BoxContainer>
-        <Label Name="Unloaded" Text="{Loc 'lobby-character-preview-panel-unloaded-preferences-label'}"/>
+
+        <Label Name="Unloaded"
+               Text="{Loc 'lobby-character-preview-panel-unloaded-preferences-label'}" />
     </BoxContainer>
 </Control>

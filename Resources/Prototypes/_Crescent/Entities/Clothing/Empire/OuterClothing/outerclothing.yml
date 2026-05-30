@@ -264,8 +264,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, StreeCredRedeemable, ClothingArmorInsertHardsuit]
   id: ClothingOuterHardsuitImperialKnight
-  name: MECS Typ 2 'KONIGSCHILD' Combat Hardsuit
-  description: The MECS Typ 2 is a variation of the Typ 1 hardsuit, but comes with heavier armor and greater comfortability. This design was originally intended to be used specifically by NCOs, but Taypani garrisons can't afford to not issue the Typ 2 to levymen.
+  name: MECS Typ 1A 'KONIGSCHILD' Combat Hardsuit
+  description: The MECS Typ 1A is a prototyped variation of the Typ 1 hardsuit, coming with heavier armor and greater comfortability. This design was originally intended to be used specifically by NCOs, but never saw mass production after the lesser nobility serving in these roles argued that the armor failed to properly distinguish them from 'The Rabble'.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/Empire/OuterClothing/mandateknight.rsi
@@ -310,7 +310,7 @@
 - type: entity
   parent: ClothingOuterHardsuitImperialSoldier
   id: ClothingOuterHardsuitImperialBanneret
-  name: MECS Typ 1 'SABRE' Modified Hardsuit
+  name: MECS Typ 2 'KONIGSCHILD' Modified Hardsuit
   description: A variation of the MECS Typ 1 hardsuit designed to distinguish minor nobility on the battlefield. It's outfitted with pauldrons and a skirt, with some tasteful gold plating.
   components:
   - type: Sprite

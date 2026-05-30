@@ -189,35 +189,6 @@
     Plasma: 1000
     AdvancedMechatronics: 1000
 
-# MARK: Ship LPCs
-
-- type: latheRecipe
-  id: GazpachovLPC
-  result: ShipVoucherGazpachov
-  completetime: 1
-  materials:
-    StarshipEngineComponents: 1000
-    ShipComponents: 2500
-    ShipHull: 2000
-
-- type: latheRecipe
-  id: MakoLPC
-  result: ShipVoucherMako
-  completetime: 1
-  materials:
-    StarshipEngineComponents: 1000
-    ShipComponents: 2000
-    ShipHull: 1500
-
-- type: latheRecipe
-  id: OnryoLPC
-  result: ShipVoucherOnryo
-  completetime: 1
-  materials:
-    StarshipEngineComponents: 2500
-    ShipComponents: 3000
-    ShipHull: 3500
-
 # MARK: Flatpacks
 
 - type: latheRecipe

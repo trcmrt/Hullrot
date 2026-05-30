@@ -6,7 +6,7 @@
   completetime: 0.0083 # 0.25 per 30
   materials:
     RawIron: 100
-    Coal: 30
+    Coal: 20
 
 - type: latheRecipe
   id: SheetSteel30

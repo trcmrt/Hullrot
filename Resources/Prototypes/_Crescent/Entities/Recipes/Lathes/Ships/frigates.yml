@@ -94,6 +94,36 @@
     Copper: 3000
     Silver: 1000
 
+- type: latheRecipe
+  id: GazpachovLPC
+  result: ShipVoucherGazpachov
+  completetime: 1
+  materials:
+    Steel: 12000
+    Aluminum: 6000
+    Copper: 3000
+    Silver: 1000
+
+- type: latheRecipe
+  id: MakoLPC
+  result: ShipVoucherMako
+  completetime: 1
+  materials:
+    Steel: 12000
+    Aluminum: 6000
+    Copper: 3000
+    Silver: 1000
+
+- type: latheRecipe
+  id: OnryoLPC
+  result: ShipVoucherOnryo
+  completetime: 1
+  materials:
+    Steel: 12000
+    Aluminum: 6000
+    Copper: 3000
+    Silver: 1000
+
 #GSC
 - type: latheRecipe
   id: CorvaxLPC

@@ -40,7 +40,7 @@
                                     <BoxContainer Orientation="Horizontal" SeparationOverride="6" Margin="3 3 3 3">
                                         <cc:UICommandButton Command="observe" Name="ObserveButton" Access="Public"
                                                             Text="{Loc 'ui-lobby-observe-button'}"
-                                                            StyleClasses="ButtonBig"
+                                                            StyleClasses="CrescentButton"
                                                             WindowType="{x:Type lobbyUi:ObserveWarningWindow}" />
                                         <Label Name="StartTime"
                                                Access="Public"
@@ -49,10 +49,10 @@
                                                StyleClasses="LabelBig" HorizontalExpand="True" />
                                         <Button Name="ManifestButton" Access="Public"
                                                 Text="Manifest"
-                                                StyleClasses="ButtonBig" MinWidth="137" />
+                                                StyleClasses="CrescentButton" MinWidth="137" />
                                         <Button Name="ReadyButton" Access="Public" ToggleMode="True"
                                                 Text="{Loc 'ui-lobby-ready-up-button'}"
-                                                StyleClasses="ButtonBig" MinWidth="137" />
+                                                StyleClasses="CrescentButton" MinWidth="137" />
                                     </BoxContainer>
                                 </controls:StripeBack>
                             </BoxContainer>
@@ -110,43 +110,210 @@
                                         ContentMarginTopOverride="8"
                                         ContentMarginBottomOverride="8" />
                 </PanelContainer.PanelOverride>
-                <BoxContainer Orientation="Vertical" HorizontalExpand="True">
-                    <!-- Top row -->
-                    <BoxContainer Orientation="Horizontal" MinSize="0 40" Name="HeaderContainer" Access="Public"
-                                  SeparationOverride="4">
-                        <Label Margin="8 0 0 0" StyleClasses="LabelHeadingBigger" VAlign="Center"
-                               Text="{Loc 'ui-lobby-title'}" />
-                        <Label Name="ServerName" Access="Public" StyleClasses="LabelHeadingBigger" VAlign="Center"
-                               HorizontalExpand="True" HorizontalAlignment="Center" />
+
+                <BoxContainer Orientation="Vertical"
+                            HorizontalExpand="True"
+                            VerticalExpand="True"
+                            SeparationOverride="8">
+
+                    <!-- GOLD HEADER -->
+                    <PanelContainer>
+                        <PanelContainer.PanelOverride>
+                            <graphics:StyleBoxFlat BackgroundColor="#8A6A34"
+                                                BorderColor="#B09155"
+                                                BorderThickness="2"
+                                                ContentMarginLeftOverride="10"
+                                                ContentMarginRightOverride="10"
+                                                ContentMarginTopOverride="6"
+                                                ContentMarginBottomOverride="6" />
+                        </PanelContainer.PanelOverride>
+
+                        <BoxContainer Orientation="Horizontal"
+                                    MinSize="0 40"
+                                    Name="HeaderContainer"
+                                    Access="Public"
+                                    SeparationOverride="4">
+
+                            <Label Margin="8 0 0 0"
+                                StyleClasses="LabelHeadingBigger"
+                                FontColorOverride="#1A1208"
+                                VAlign="Center"
+                                Text="{Loc 'ui-lobby-title'}" />
+
+                            <Label Name="ServerName"
+                                Access="Public"
+                                StyleClasses="LabelHeadingBigger"
+                                FontColorOverride="#1A1208"
+                                VAlign="Center"
+                                HorizontalExpand="True"
+                                HorizontalAlignment="Center" />
+                        </BoxContainer>
+                    </PanelContainer>
+
+                    <!-- BUTTON BAR -->
+                    <BoxContainer Orientation="Horizontal"
+                                MinSize="0 40"
+                                HorizontalExpand="True"
+                                SeparationOverride="-1">
+
+                        <Button Name="AHelpButton"
+                                Access="Public"
+                                Text="{Loc 'ui-lobby-ahelp-button'}"
+                                StyleClasses="CrescentButton"
+                                HorizontalExpand="True" />
+
+                        <vote:VoteCallMenuButton Name="CallVoteButton"
+                                                StyleClasses="CrescentButton"
+                                                HorizontalExpand="True" />
+
+                        <Button Name="OptionsButton"
+                                Access="Public"
+                                Text="{Loc 'ui-lobby-options-button'}"
+                                StyleClasses="CrescentButton"
+                                HorizontalExpand="True" />
+
+                        <Button Name="LeaveButton"
+                                Access="Public"
+                                Text="{Loc 'ui-lobby-leave-button'}"
+                                StyleClasses="CrescentButton"
+                                HorizontalExpand="True" />
                     </BoxContainer>
-                    <!-- Gold line -->
-                    <controls:HLine Color="{x:Static style:StyleNano.NanoGold}" Thickness="2" />
-                    <controls:HSpacer Spacing="10" />
-                    <!-- Voting & misc button bar -->
-                    <BoxContainer Orientation="Horizontal" MinSize="0 40" HorizontalAlignment="Right">
-                        <Button Name="AHelpButton" Access="Public" Text="{Loc 'ui-lobby-ahelp-button'}"
-                                StyleClasses="ButtonBig" />
-                        <vote:VoteCallMenuButton Name="CallVoteButton" StyleClasses="ButtonBig" />
-                        <Button Name="OptionsButton" Access="Public" StyleClasses="ButtonBig"
-                                Text="{Loc 'ui-lobby-options-button'}" />
-                        <Button Name="LeaveButton" Access="Public" StyleClasses="ButtonBig"
-                                Text="{Loc 'ui-lobby-leave-button'}" />
-                    </BoxContainer>
-                    <controls:HSpacer Spacing="10" />
-                    <!-- Server info -->
-                    <controls:NanoHeading Text="{Loc 'ui-lobby-server-info-block'}" />
-                    <info:ServerInfo Name="ServerInfo" Access="Public" MinSize="0 30" VerticalExpand="false"
-                                     Margin="3 3 3 3" MaxWidth="400" HorizontalAlignment="Left" />
-                    <Label Name="StationTime" Access="Public" FontColorOverride="{x:Static maths:Color.LightGray}"
-                           Margin="3 3 3 3" HorizontalAlignment="Left" />
-                    <controls:HSpacer Spacing="5" />
-                    <lobbyUi:LobbyCharacterPreviewPanel Name="CharacterPreview" Access="Public" />
-                    <controls:HSpacer Spacing="5" />
-                    <BoxContainer MinHeight="10" />
-                    <!-- Gold line -->
-                    <controls:HLine Color="{x:Static style:StyleNano.NanoGold}" Thickness="2" Access="Public" />
-                    <controls:HSpacer Spacing="10" />
-                    <widgets:ChatBox Name="Chat" Access="Public" VerticalExpand="True" Margin="3 3 3 3" MinHeight="50" />
+
+                    <!-- SERVER INFO -->
+                    <PanelContainer>
+                        <PanelContainer.PanelOverride>
+                            <graphics:StyleBoxFlat BackgroundColor="#160D0DEB"
+                                                BorderColor="#7A6135"
+                                                BorderThickness="1"
+                                                ContentMarginLeftOverride="10"
+                                                ContentMarginRightOverride="10"
+                                                ContentMarginTopOverride="8"
+                                                ContentMarginBottomOverride="10" />
+                        </PanelContainer.PanelOverride>
+
+                        <BoxContainer Orientation="Vertical">
+                            <controls:NanoHeading Text="{Loc 'ui-lobby-server-info-block'}" />
+
+                            <info:ServerInfo Name="ServerInfo"
+                                            Access="Public"
+                                            MinSize="0 30"
+                                            VerticalExpand="false"
+                                            Margin="3 6 3 3"
+                                            MaxWidth="400"
+                                            HorizontalAlignment="Left" />
+
+                            <Label Name="StationTime"
+                                Access="Public"
+                                FontColorOverride="{x:Static maths:Color.LightGray}"
+                                Margin="3 4 3 3"
+                                HorizontalAlignment="Left" />
+                        </BoxContainer>
+                    </PanelContainer>
+
+                    <!-- CHARACTER -->
+                    <PanelContainer>
+                        <PanelContainer.PanelOverride>
+                            <graphics:StyleBoxFlat BackgroundColor="#1A0505"
+                                                BorderColor="#7A6135"
+                                                BorderThickness="1"
+                                                ContentMarginLeftOverride="10"
+                                                ContentMarginRightOverride="10"
+                                                ContentMarginTopOverride="8"
+                                                ContentMarginBottomOverride="10" />
+                        </PanelContainer.PanelOverride>
+
+                        <BoxContainer Orientation="Vertical"
+                                    MinHeight="185">
+                            <lobbyUi:LobbyCharacterPreviewPanel Name="CharacterPreview"
+                                                                Access="Public" />
+                        </BoxContainer>
+                    </PanelContainer>
+
+                    <!-- CHAT -->
+                    <PanelContainer VerticalExpand="True">
+                        <PanelContainer.PanelOverride>
+                            <graphics:StyleBoxFlat BackgroundColor="#080404F5"
+                                                BorderColor="#7A6135"
+                                                BorderThickness="2"
+                                                ContentMarginLeftOverride="6"
+                                                ContentMarginRightOverride="6"
+                                                ContentMarginTopOverride="6"
+                                                ContentMarginBottomOverride="6" />
+                        </PanelContainer.PanelOverride>
+
+                        <BoxContainer Orientation="Vertical"
+                                    VerticalExpand="True"
+                                    SeparationOverride="4">
+
+                            <!-- TERMINAL HEADER -->
+                            <PanelContainer>
+                                <PanelContainer.PanelOverride>
+                                    <graphics:StyleBoxFlat BackgroundColor="#1A120C"
+                                                        BorderColor="#7A6135"
+                                                        BorderThickness="1"
+                                                        ContentMarginLeftOverride="6"
+                                                        ContentMarginRightOverride="6"
+                                                        ContentMarginTopOverride="3"
+                                                        ContentMarginBottomOverride="3" />
+                                </PanelContainer.PanelOverride>
+
+                                <BoxContainer Orientation="Horizontal">
+                                    <Label Text="LOCAL LOG"
+                                        FontColorOverride="#B09155"
+                                        StyleClasses="LabelHeading" />
+
+                                    <Control HorizontalExpand="True" />
+
+                                    <Label Text="SYSTEM: TAYPAN"
+                                        FontColorOverride="#6F5B37" />
+                                </BoxContainer>
+                            </PanelContainer>
+
+                            <!-- INNER CRT FRAME -->
+                            <PanelContainer VerticalExpand="True">
+                                <PanelContainer.PanelOverride>
+                                    <graphics:StyleBoxFlat BackgroundColor="#000000"
+                                                        BorderColor="#8C6A32"
+                                                        BorderThickness="2"
+                                                        ContentMarginLeftOverride="6"
+                                                        ContentMarginRightOverride="6"
+                                                        ContentMarginTopOverride="6"
+                                                        ContentMarginBottomOverride="6" />
+                                </PanelContainer.PanelOverride>
+
+                                <widgets:ChatBox Name="Chat"
+                                                Access="Public"
+                                                VerticalExpand="True"
+                                                Margin="0 0 0 0"
+                                                MinHeight="50" />
+                            </PanelContainer>
+
+                            <!-- FOOTER STATUS BAR -->
+                            <PanelContainer>
+                                <PanelContainer.PanelOverride>
+                                    <graphics:StyleBoxFlat BackgroundColor="#120B08"
+                                                        BorderColor="#7A6135"
+                                                        BorderThickness="1"
+                                                        ContentMarginLeftOverride="6"
+                                                        ContentMarginRightOverride="6"
+                                                        ContentMarginTopOverride="2"
+                                                        ContentMarginBottomOverride="2" />
+                                </PanelContainer.PanelOverride>
+
+                                <BoxContainer Orientation="Horizontal">
+                                    <Label Text="STATUS: CONNECTED"
+                                        FontColorOverride="#B09155" />
+
+                                    <Control HorizontalExpand="True" />
+
+                                    <Label Text="CHANNEL: OOC"
+                                        FontColorOverride="#6F5B37" />
+                                </BoxContainer>
+                            </PanelContainer>
+
+                        </BoxContainer>
+                    </PanelContainer>
+
                 </BoxContainer>
             </PanelContainer>
         </SplitContainer>

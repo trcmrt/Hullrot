@@ -14,7 +14,7 @@
   miningPoints: 10
   materials:
     RawCopper: 100
-    Coal: 50
+    Coal: 25
 
 - type: latheRecipe
   id: N14IngotAluminium1
@@ -23,7 +23,7 @@
   miningPoints: 10
   materials:
     RawAluminium: 100
-    Coal: 50
+    Coal: 25
 
 - type: latheRecipe
   id: N14MaterialCircuitry

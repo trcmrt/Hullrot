@@ -16,6 +16,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.CustomControls;
 using Robust.Shared.Graphics;
 using static Robust.Client.UserInterface.StylesheetHelpers;
+using Content.Client._Crescent.Stylesheets;
 
 namespace Content.Client.Stylesheets
 {
@@ -590,7 +591,9 @@ namespace Content.Client.Stylesheets
             var directionIconQuestionTex = resCache.GetTexture("/Textures/Interface/VerbIcons/information.svg.192dpi.png");
             var directionIconHereTex = resCache.GetTexture("/Textures/Interface/VerbIcons/dot.svg.192dpi.png");
 
-            Stylesheet = new Stylesheet(BaseRules.Concat(new[]
+            Stylesheet = new Stylesheet(BaseRules
+                .Concat(CrescentStylesheet.Rules)
+                .Concat(new[]
             {
                 Element().Class("monospace")
                     .Prop("font", notoSansMono),

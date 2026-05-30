@@ -66521,13 +66521,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ShipyardManufactorum
-  entities:
-  - uid: 6977
-    components:
-    - type: Transform
-      pos: -11.5,20.5
-      parent: 1
 - proto: ShuttersNormal
   entities:
   - uid: 6978

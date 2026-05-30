@@ -217761,13 +217761,6 @@ entities:
     - type: Transform
       pos: -16.5,8.5
       parent: 1
-- proto: ShipyardManufactorum
-  entities:
-  - uid: 5905
-    components:
-    - type: Transform
-      pos: 18.5,-9.5
-      parent: 1
 - proto: shuttle_manipulator
   entities:
   - uid: 5906

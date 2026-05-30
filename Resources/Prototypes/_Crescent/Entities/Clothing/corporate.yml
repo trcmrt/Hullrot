@@ -237,7 +237,7 @@
   - type: GroupExamine
 
 - type: entity
-  parent: [ClothingOuterHardsuitBase, StreeCredRedeemableHigh]
+  parent: [ClothingOuterHardsuitBase, StreeCredRedeemableHigh, ClothingArmorInsertHardsuit]
   id: ClothingOuterHardsuitHighsecIndependent
   name: freelance SVBT-2 combat hardsuit
   description: A modular combat hardsuit developed by Shinohara Heavy Industries. Sold to elite mercs and corporate deathsquads everywhere. The internal IFF has been swapped from SHI standards, for safety reasons.
@@ -246,25 +246,29 @@
     sprite: _Crescent/Clothing/SHI/OuterClothing/corpsecinde.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/SHI/OuterClothing/corpsecinde.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.6
-  - type: DegradeableArmor
-    armorMaxHealth: 900
-    armorType: Ceramic
-    armorRepair: NTCeramic
-    initialModifiers:
-      flatReductions:
-        Blunt: 25
-        Slash: 35
-        Piercing: 70
-        Heat: 15
-        Caustic: 15
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Heat: 0.7
+        Cold: 0.7
+        Caustic: 0.7
+        Radiation: 0.8
   - type: ClothingSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.85
+    walkModifier: 0.95
+    sprintModifier: 0.95
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCorpsec
   - type: ReverseEngineering # SectorCrescent
